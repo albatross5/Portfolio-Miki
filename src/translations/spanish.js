@@ -5,7 +5,7 @@ export default {
     header_title: "Miguel Ramirez",
     header_subtitle_programmer: "Informático Programador ",
     header_subtitle_cyber:" Técnico en Ciberseguridad",
-    header_location: "Madrid, España",
+    header_location: "Barcelona, España",
     header_email: "miguelramirezsanchezr6@gmail.com",
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
