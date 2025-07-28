@@ -63,7 +63,7 @@ const Home = () => {
                         <div class="card skill-card purple">
                             <div class="card-header">
                                 <h2 class="card-title">
-                                    Tecnologías & Herramientas
+                                    Herramientas
                                 </h2>
                             </div>
                             <div class="skills-container">
@@ -233,7 +233,10 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div class="card">
+
+                    </div>
+                </section>
+                                        <div class="card">
                             <div class="card-header">
                                 <h2 class="card-title">
                                     <div class="icon-container icon-gradient-indigo">
@@ -254,11 +257,10 @@ const Home = () => {
                                 <p class="education-period">2018 - 2020</p>
                             </div>
                         </div>
-                    </div>
-                </section>
+                        <br /><br />
                 <section class="section">
                     <div class="card contact-card">
-                        <h2 class="contact-title">¿Interesado en colaborar?</h2>
+                        <h2 class="contact-title">¡¡Contacta conmigo!!</h2>
                         <p class="contact-subtitle">
                             Estoy disponible para nuevos proyectos y oportunidades profesionales
                         </p>
