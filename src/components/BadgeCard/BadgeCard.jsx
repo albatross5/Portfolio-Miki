@@ -1,33 +1,31 @@
 import "./BadgeCard.scss";
 import PropTypes from "prop-types";
-import { useTranslation } from "react-i18next";
 
-const BadgeCard = ({ title }) => {
-    const { t } = useTranslation();
+const BadgeCard = ({ icon, title, skills }) => {
+    //, array
 
     return (
-        <div class="card skill-card green">
+        <div class="card skill-card black">
             <div class="card-header">
-                <h2 class="card-title">
-                    {title}
-                </h2>
+                <img class="iconos-badge" src={icon} alt={title} />
+                <h2 class="card-title">{title}</h2>
             </div>
-            <div class="badges">
-                <span class="badge badge-green">Python</span>
-                <span class="badge badge-green">JavaScript</span>
-                <span class="badge badge-green">TypeScript</span>
-                <span class="badge badge-green">Java</span>
-                <span class="badge badge-green">C++</span>
-                <span class="badge badge-green">Bash</span>
-                <span class="badge badge-green">PowerShell</span>
-                <span class="badge badge-green">SQL</span>
+            <div class="skills-container">
+                    {skills.map((skill, index) => (
+                        <div key={index} className="skill-box skill-box-black">
+                            <div className="skill-box-title">{skill}</div>
+                        </div>
+                    ))}
             </div>
         </div>
     );
 };
 
-DestinationCard.propTypes = {
+BadgeCard.propTypes = {
+    icon: PropTypes.string,
     title: PropTypes.string,
+    // skill: PropTypes.array
+    skills: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default BadgeCard;

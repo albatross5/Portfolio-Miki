@@ -24,7 +24,7 @@ const Header = () => {
                                 <img className="iconos" src="/assets/mail.svg" alt="MAIL" /><a href="mailto: miguelramirezsanchezr6@gmail.com"> {t("header_email")} </a>
                             </div>
                             <div class="contact-item">
-                                <img className="iconos" src="/assets/phone.svg" alt="PHONE"/><span>{t("header_phone")}</span>
+                                <img className="iconos" src="/assets/phone.svg" alt="PHONE"/><a href="tel:+34654840946">{t("header_phone")}</a>
                             </div>
                         </div>
                     </div>
@@ -37,6 +37,8 @@ const Header = () => {
                             <img className="iconos" src="/assets/github.svg" alt="GitHub" />
                             {t("header_github")}
                         </a>
+
+                        {/* ESTO HACE QUE UN PDF SE VEA ABIERTO EN LA WEB */}
                         {/* <object 
                             className="pdfObject"
                             type="application/pdf"
