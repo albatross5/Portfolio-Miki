@@ -2,15 +2,16 @@ import "./Certificates.scss";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-const Certificates = ({certificados}) => {
+const Certificates = ({ certificados }) => {
     const { t } = useTranslation();
+
     return (
-        <div class="card">
-            <div class="card-header">
-                <h2 class="card-title">
-                    <div class="icon-container icon-gradient-yellow">
+        <div className="card">
+            <div className="card-header">
+                <h2 className="card-title">
+                    <div className="icon-container icon-gradient-yellow">
                         <img
-                            class="iconos-badge"
+                            className="iconos-badge"
                             src="/assets/certificate.svg"
                             alt=""
                         />
@@ -19,17 +20,20 @@ const Certificates = ({certificados}) => {
                 </h2>
             </div>
             {certificados.map((cert, index) => (
-                <div class="cert-item" key={index}>
-                    <div class="cert-info">
-                        <h3>{cert.title}</h3>
-                        <p>{cert.description}</p>
-                    </div>
-                    <span class="badge badge-yellow">
-                        {cert.year}
-                    </span>
-                </div>
-            ))}
-            
+    <div className="cert-item" key={index}>
+        <div className="cert-info">
+            <h3>{cert.title}</h3>
+            <p>{cert.description}</p>
+        </div>
+
+        {index === 0 && (
+            <button href="" className="custom-button-centered">{t("button_text")}</button>
+        )}
+
+        <span className="badge badge-yellow">{cert.year}</span>
+    </div>
+))}
+
         </div>
     );
 };
@@ -42,8 +46,6 @@ Certificates.propTypes = {
             year: PropTypes.string
         })
     )
-    
 };
-
 
 export default Certificates;

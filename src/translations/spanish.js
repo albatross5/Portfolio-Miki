@@ -53,6 +53,7 @@ export default {
 
     //Certificados
     certificate_title: "Certificaciones",
+    button_text: "Mas Informacion",
 
     //Microsoft Learn
     certificate_microsoft: "Microsoft Learn",

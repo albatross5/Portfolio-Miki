@@ -110,7 +110,7 @@ const Home = () => {
         },
         {
             icon: "/assets/language.svg",
-            title: t("education_title"),
+            title: t("language_title"),
             EduLeng: [
                 {
                     course: t("language_es"),
