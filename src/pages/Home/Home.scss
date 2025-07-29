@@ -65,31 +65,6 @@
             justify-content: center;
         }
 
-        .icon-gradient-cyan {
-            background: linear-gradient(45deg, #06b6d4, #a855f7);
-        }
-
-        .icon-gradient-green {
-            background: linear-gradient(45deg, #10b981, #059669);
-        }
-
-        .icon-gradient-purple {
-            background: linear-gradient(45deg, #a855f7, #ec4899);
-        }
-
-        .icon-gradient-red {
-            background: linear-gradient(45deg, #ef4444, #f97316);
-        }
-
-        .icon-gradient-yellow {
-            background: linear-gradient(45deg, #eab308, #f97316);
-        }
-
-        .icon-gradient-indigo {
-            background: linear-gradient(45deg, #6366f1, #a855f7);
-        }
-
-        
 
         .badges {
             display: flex;
@@ -122,18 +97,6 @@
 
         
         
-
-
-
-
-
-
-        
-
-
-
-
-
 
 
         /* Projects grid */
@@ -211,35 +174,9 @@
 
 
 
-        .education-item {
-            padding: 0.75rem;
-            border-radius: 0.5rem;
-            transition: all 0.3s ease;
-            margin-bottom: 1.5rem;
-        }
+        
 
-        .education-item:hover {
-            background: rgba(255, 255, 255, 0.05);
-        }
-
-        .education-title {
-            font-weight: 600;
-            color: white;
-            transition: color 0.3s ease;
-        }
-
-        .education-item:hover .education-title {
-            color: #6366f1;
-        }
-
-        .education-school {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .education-period {
-            font-size: 0.875rem;
-            color: #6366f1;
-        }
+        
 
 
 

@@ -12,7 +12,7 @@ export default {
     header_github: "GitHub",
     header_download_cv: "CV",
 
-    //Spbre Mi
+    //Sobre Mi
 
     sobre_mi: "Sobre Mi",
     sobre_mi_primero: "Soy un profesional en IT con más de 3 años de experiencia en la gestión de incidencias, administración de sistemas y ciberseguridad. Me especializo en la implementación de soluciones seguras, la gestión de infraestructuras críticas y el diseño y administración de bases de datos SQL.",
@@ -32,7 +32,7 @@ export default {
     experience_titulo_1: "Técnico Informatico / QA (Quality Assurance en desarrollo web)",
     experience_period_1: "Marzo 2025 / Actualmente",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y remoto a diferentes centros educativos. Formacion en plataforma SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias... Especializacion en SQL.",
+    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y remoto a diferentes centros educativos. Formacion en plataforma SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...",
 
     //2024
     experience_titulo_2: "Auxiliar de caja",
@@ -45,10 +45,38 @@ export default {
     experience_enterprise_3: "Alcampo - Sant Boi y Diagonal Mar",
     experience_description_3: "Copias de seguridad y conceder permisos / accesos a usuarios. Elaborar documentación técnica, administrativa del sistema y asesorar al usuario. Instalacion y configuracion de ordenadores, verificadores, telefonos, radio frequencias, TPV, etc... Diagnosticar disfunciones en sistemas microinformáticos y redes mediante pruebas funcionales.",
 
-    // 2022
-    //2023
+    //2022
     experience_titulo_4: "Técnico Informatico",
     experience_period_4: "Septiembre 2022 / Junio 2023",
     experience_enterprise_4: "Highlands School Barcelona",
-    experience_description_4: "Instalar y configurar software básico y de aplicación, redes locales cableadas, inalámbricas y conectadas a redes públicas. Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local. Montar y configurar ordenadores y periféricos. Resolver incidencias de todo tipo a nivel de IT."
+    experience_description_4: "Instalar y configurar software básico y de aplicación, redes locales cableadas, inalámbricas y conectadas a redes públicas. Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local. Montar y configurar ordenadores y periféricos. Resolver incidencias de todo tipo a nivel de IT.",
+
+    //Certificados
+    certificate_title: "Certificaciones",
+
+    //Microsoft Learn
+    certificate_microsoft: "Microsoft Learn",
+    certificate_microsoft_description: "Para ver todos los cursos presiona el link.",
+    certificate_microsoft_year: "2025",
+
+    //Cisco
+    certificate_cisco: "PCAP: Programming Essentials in Python",
+    certificate_cisco_description: "Certificado oficial Cisco Networking Academy",
+    certificate_cisco_year: "2023",
+
+    //SAGE 200
+    certificate_sage: "SAGE 200 Administrador Informatico 70h",
+    certificate_sage_description: "Entender la BBDD de SAGE 200, administracion de la ERP, qwerys a la BBDD avanzado.",
+    certificate_sage_year: "2025",
+
+    //Educacion
+    education_title: "Educación",
+
+    //CFGS
+    education_cfgs: "CFGS Administración de Sistemas Informáticos en Red con especialización en Ciberseguridad",
+    education_cfgs_center: "Instituto Torre Roja - Viladecans",
+    education_cfgm: "GFGM Sistemas microinformática y redes",
+    education_cfgm_center: "Instituto Esteve Terradas - Cornellà de Llobregat"
+
+
 } 
