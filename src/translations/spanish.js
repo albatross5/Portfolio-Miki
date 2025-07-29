@@ -4,7 +4,7 @@ export default {
 
     header_title: "Miguel Ramirez",
     header_subtitle_programmer: "Informático Programador ",
-    header_subtitle_cyber:" Técnico en Ciberseguridad",
+    header_subtitle_cyber:" Administrador de sistemas",
     header_location: "Barcelona, España",
     header_email: "miguelramirezsanchezr6@gmail.com",
     header_phone: "+34 654 84 09 46",
@@ -69,14 +69,26 @@ export default {
     certificate_sage_description: "Entender la BBDD de SAGE 200, administracion de la ERP, qwerys a la BBDD avanzado.",
     certificate_sage_year: "2025",
 
+    //Educacion y Idiomas
+
     //Educacion
     education_title: "Educación",
 
     //CFGS
     education_cfgs: "CFGS Administración de Sistemas Informáticos en Red con especialización en Ciberseguridad",
     education_cfgs_center: "Instituto Torre Roja - Viladecans",
+
+    //CFGM
     education_cfgm: "GFGM Sistemas microinformática y redes",
-    education_cfgm_center: "Instituto Esteve Terradas - Cornellà de Llobregat"
+    education_cfgm_center: "Instituto Esteve Terradas - Cornellà de Llobregat",
 
+    //Idiomas
+    language_title: "Idiomas",
 
-} 
+    //CFGS
+    language_es: "Español - Nativo",
+    language_cat: "Catalan - Nativo",
+    language_rom: "Rumano - Avanzado",
+    language_eng: "Inglés - Básico",
+
+}

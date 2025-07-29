@@ -4,7 +4,8 @@ import Header from "../../components/Header/Header";
 import BadgeCard from "../../components/BadgeCard/BadgeCard";
 import ExperienciaProfesional from "../../components/ExperienciaProfesional/ExperienciaProfesionnal";
 import Certificates from "../../components/Certificates/Certificates";
-import Education from "../../components/Education/Education";
+// import Education from "../../components/Education/Education";
+import EduLeng from "../../components/EduLeng/EduLeng";
 
 const Home = () => {
     const { t } = useTranslation();
@@ -81,16 +82,52 @@ const Home = () => {
         },
     ];
 
-    const education = [
+    // const education = [
+    //     {
+    //         title: t("education_cfgs"),
+    //         center: t("education_cfgs_center"),
+    //     },
+    //     {
+    //         title: t("education_cfgm"),
+    //         center: t("education_cfgm_center"),
+    //     },
+    // ];
+
+    const eduleng = [
         {
-            title:t("education_cfgs"),
-            center:t("education_cfgs_center")
+            icon: "/assets/certificate.svg",
+            title: t("education_title"),
+            EduLeng: [
+                {
+                    course: t("education_cfgs"),
+                    center: t("education_cfgs_center"),
+                },
+                {
+                    course: t("education_cfgm"),
+                    center: t("education_cfgm_center"),
+                },
+            ],
         },
         {
-            title:t("education_cfgm"),
-            center:t("education_cfgm_center")
-        }
-    ]
+            icon: "/assets/language.svg",
+            title: t("education_title"),
+            EduLeng: [
+                {
+                    course: t("language_es"),
+                },
+                {
+                    course: t("language_cat"),
+                },
+                {
+                    course: t("language_rom"),
+                },
+                {
+                    course: t("language_eng"),
+                },
+            ],
+        },
+    ];
+
     return (
         <div class="main-container">
             <Header></Header>
@@ -109,7 +146,6 @@ const Home = () => {
                             </p>
                         </div>
                     </section>
-
                     {/* -----------------Seccion de SKILLS (array en array)----------------- */}
                     <section class="section">
                         <div class="skills-grid">
@@ -125,47 +161,35 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-
                     {/* -----------------Seccion de Experiencia Profesional (array en array)----------------- */}
                     <section class="section">
                         <ExperienciaProfesional experiencias={experiencias} />
                     </section>
-
                     {/* -----------------Seccion de Certificaciones (array en array)----------------- */}
-                    Para los certificados de Microsoft Learn, quiero añadir una pagina mas y mostrar todos los que he hecho
+                    Para los certificados de Microsoft Learn, quiero añadir una
+                    pagina mas y mostrar todos los que he hecho
                     <section class="section">
                         <div class="two-column">
-
                             <Certificates certificados={certificados} />
-
                         </div>
                     </section>
-                             <Education education={education} />
-
-                    {/* -----------------Seccion de Educacion (array en array)----------------- */}
-                    {/* <section class="card">
-                        <div class="card-header">
-                            <h2 class="card-title">
-                                <div class="icon-container icon-gradient-indigo">
-                                    <img class="iconos-badge" src="/assets/school.svg" alt="" />
-                                </div>
-                                {t("education_title")}
-                            </h2>
-                        </div>
-                        <div class="education-item">
-                            <h3 class="education-title">
-                                {t("education_cfgs")}
-                            </h3>
-                            <p class="education-school">
-                                {t("education_cfgs_center")}
-                            </p>
-                        </div>
-                    </section> */}
-                    <br />
-                    <br />
-
-                    {/* -----------------Seccion de Proyectos Destacados (array en array)----------------- */}
+                    {/* -----------------Seccion de Educacion Y Idioma (array en array)----------------- */}
                     <section class="section">
+                        <div class="skills-grid">
+                            <div className="skills-container">
+                                {eduleng.map((item, index) => (
+                                    <EduLeng
+                                        key={index}
+                                        icon={item.icon}
+                                        title={item.title}
+                                        EduLeng={item.EduLeng}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    </section>
+                    {/* -----------------Seccion de Proyectos Destacados (array en array)----------------- */}
+                    {/* <section class="section">
                         <div class="card">
                             <div class="card-header">
                                 <h2 class="card-title">
@@ -249,7 +273,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     <section class="section">
                         <div class="card contact-card">
                             <h2 class="contact-title">¡¡Contacta conmigo!!</h2>
