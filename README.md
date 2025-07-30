@@ -23,25 +23,10 @@ Este proyecto es una **web personal responsive** desarrollada con tecnologías m
 - **Lite YouTube Embed** – Carga optimizada de vídeos de YouTube. Todavía no está aplicado.
 
 
-## 📁 Estructura del Proyecto
-
-/src
-  /assets         # Imágenes, íconos, etc.
-  /components     # Componentes reutilizables (Navbar, Footer, etc.)
-  /views          # Secciones principales (Sobre mí, Experiencia, Contacto)
-  App.vue         # Componente raíz
-  main.js         # Punto de entrada
-/public
-  index.html      # HTML principal
-README.md
-package.json
-
-
 ## 🚀 Cómo Ejecutar el Proyecto Localmente
 
 1. Clona el repositorio:
    git clone https://github.com/albatross5/Web-Personal
-   cd portfolio-web
 
 2. Instala las dependencias:
    npm install
