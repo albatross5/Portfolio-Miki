@@ -1,47 +1,47 @@
 .experience-item {
-            margin-bottom: 2rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-        .experience-item:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
+.experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
-        .experience-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-        }
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
 
-        .experience-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: white;
-            transition: color 0.3s ease;
-        }
+.experience-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    transition: color 0.3s ease;
+}
 
-        .experience-item:hover .experience-title {
-            color: #06b6d4;
-        }
+.experience-item:hover .experience-title {
+    color: #06b6d4;
+}
 
-        .experience-period {
-            color: #06b6d4;
-            font-weight: 500;
-        }
+.experience-period {
+    color: #06b6d4;
+    font-weight: 500;
+}
 
-        .experience-company {
-            color: #bf89f2;
-            font-weight: 500;
-            font-size: 1.1rem;
-            margin-bottom: 0.75rem;
-        }
+.experience-company {
+    color: #bf89f2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
 
-        .experience-description {
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.6;
-        }
+.experience-description {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}

@@ -1,10 +1,9 @@
 export default {
 
     //Header
-
     header_title: "Miguel Ramirez",
-    header_subtitle_programmer: "Informático Programador ",
-    header_subtitle_cyber:" Administrador de sistemas",
+    header_subtitle_programmer: " Programador",
+    header_subtitle_system:"Administrador de Sistemas ",
     header_location: "Barcelona, España",
     header_email: "miguelramirezsanchezr6@gmail.com",
     header_phone: "+34 654 84 09 46",
@@ -13,16 +12,15 @@ export default {
     header_download_cv: "CV",
 
     //Sobre Mi
-
     sobre_mi: "Sobre Mi",
     sobre_mi_primero: "Soy un profesional en IT con más de 3 años de experiencia en la gestión de incidencias, administración de sistemas y ciberseguridad. Me especializo en la implementación de soluciones seguras, la gestión de infraestructuras críticas y el diseño y administración de bases de datos SQL.",
     sobre_mi_segundo: "A la hora de trabajar, me considero una persona trabajadora, ordenada y adaptable. Poseo una actitud paciente y amable, lo que me permite integrarme fácilmente en equipos de trabajo y ofrecer una atención eficaz de cara al público.Estoy orientado a las personas y a la excelencia, buscando siempre mejorar tanto en lo técnico como en lo humano.",
 
     //Badge
-
     badgecard_title_lenguages: "Lenguajes de Programación",
     badgecard_title_herramientas: "Herramientas",
 
+    
     // Experiencia Profesional
 
     // Experiencia Profesional ordenado de Actualidad - Ultimo
@@ -51,24 +49,40 @@ export default {
     experience_enterprise_4: "Highlands School Barcelona",
     experience_description_4: "Instalar y configurar software básico y de aplicación, redes locales cableadas, inalámbricas y conectadas a redes públicas. Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local. Montar y configurar ordenadores y periféricos. Resolver incidencias de todo tipo a nivel de IT.",
 
+    //Certificaciones
+
     //Certificados
     certificate_title: "Certificaciones",
     button_text: "Mas Informacion",
 
     //Microsoft Learn
     certificate_microsoft: "Microsoft Learn",
-    certificate_microsoft_description: "Para ver todos los cursos presiona el link.",
+    certificate_microsoft_description: "Mas información en la siguiente sección.",
     certificate_microsoft_year: "2025",
-
-    //Cisco
-    certificate_cisco: "PCAP: Programming Essentials in Python",
-    certificate_cisco_description: "Certificado oficial Cisco Networking Academy",
-    certificate_cisco_year: "2023",
 
     //SAGE 200
     certificate_sage: "SAGE 200 Administrador Informatico 70h",
     certificate_sage_description: "Entender la BBDD de SAGE 200, administracion de la ERP, qwerys a la BBDD avanzado.",
     certificate_sage_year: "2025",
+
+    //Cisco
+    certificate_cisco: "PCAP: Programming Essentials in Python",
+    certificate_cisco_description: "Certificado oficial Cisco Networking Academy. Mas información en la siguiente sección.",
+    certificate_cisco_year: "2023",
+
+    //Certificaciones INFO
+    certificate_cisco_info: "Programming Essentials in Python",
+    certification_title: "Informacion de Certificaciones",
+    certification_sql_1: "Introducción al análisis de datos",
+    certification_sql_2: "Ordenación y filtrado en T-SQL",
+    certification_sql_3: "JOIN en T-SQL",
+    certification_sql_4: "Escritura de subconsultas en T-SQL",
+    certification_sql_5: "Modificación de datos con T-SQL",
+    certification_sql_6: "Funciones integradas en T-SQL",
+    certification_sql_7: "Introducción a los conceptos de datos",
+    certification_sql_8: "Programación con T-SQL",
+    certification_sql_9: "Mantener BBDD en SQL Server Azure",
+    certification_sql_10: "Soluciones IaaS con Azure SQL",
 
     //Educacion y Idiomas
 
@@ -87,9 +101,28 @@ export default {
     language_title: "Idiomas",
 
     //CFGS
-    language_es: "Español - Nativo",
-    language_cat: "Catalan - Nativo",
-    language_rom: "Rumano - Avanzado",
-    language_eng: "Inglés - Básico",
+    language_es: "Español",
+    language_cat: "Catalan",
+    language_rom: "Rumano",
+    language_eng: "Ingléso",
+
+    //LVL
+    language_native: "Nativo",
+    language_advanced: "Avanzado",
+    language_basic: "Basico",
+
+    //Contacta conmigo
+
+    //Contacta conmigo
+    contactme_title: "¡¡Contacta conmigo!!",
+    contactme_subtitle: "Estoy disponible para nuevos proyectos y oportunidades profesionales",
+    contactme_mail: "Enviar Emal",
+    contactme_number: "Llamame",
+
+    //Footer
+
+    //Footer
+    footer_copy: "©",
+    footer_rights: "Todos los derechos reservados."
 
 }

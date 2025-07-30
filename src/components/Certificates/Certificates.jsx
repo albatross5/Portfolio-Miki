@@ -20,20 +20,14 @@ const Certificates = ({ certificados }) => {
                 </h2>
             </div>
             {certificados.map((cert, index) => (
-    <div className="cert-item" key={index}>
-        <div className="cert-info">
-            <h3>{cert.title}</h3>
-            <p>{cert.description}</p>
-        </div>
-
-        {index === 0 && (
-            <button href="" className="custom-button-centered">{t("button_text")}</button>
-        )}
-
-        <span className="badge badge-yellow">{cert.year}</span>
-    </div>
-))}
-
+                <div className="cert-item" key={index}>
+                    <div className="cert-info">
+                        <h3>{cert.title}</h3>
+                        <p>{cert.description}</p>
+                    </div>
+                    <span className="badge badge-yellow">{cert.year}</span>
+                </div>
+            ))}
         </div>
     );
 };
@@ -43,9 +37,9 @@ Certificates.propTypes = {
         PropTypes.shape({
             title: PropTypes.string,
             description: PropTypes.string,
-            year: PropTypes.string
+            year: PropTypes.string,
         })
-    )
+    ),
 };
 
 export default Certificates;

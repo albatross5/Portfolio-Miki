@@ -1,9 +1,6 @@
 import "./BadgeCard.scss";
-import PropTypes from "prop-types";
 
 const BadgeCard = ({ icon, title, skills }) => {
-    //, array
-
     return (
         <div class="card skill-card black">
             <div class="card-header">
@@ -11,21 +8,19 @@ const BadgeCard = ({ icon, title, skills }) => {
                 <h2 class="card-title">{title}</h2>
             </div>
             <div class="skills-container">
-                    {skills.map((skill, index) => (
-                        <div key={index} className="skill-box skill-box-black">
-                            <div className="skill-box-title">{skill}</div>
-                        </div>
-                    ))}
+                {skills.map((skill, index) => (
+                    <div key={index} className="skill-box skill-box-black">
+                        <img
+                            class="iconos-badge"
+                            src={skill.icon}
+                            alt={skill.name}
+                        />
+                        <div className="skill-box-title">{skill.name}</div>
+                    </div>
+                ))}
             </div>
         </div>
     );
-};
-
-BadgeCard.propTypes = {
-    icon: PropTypes.string,
-    title: PropTypes.string,
-    // skill: PropTypes.array
-    skills: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default BadgeCard;

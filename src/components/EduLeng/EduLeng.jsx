@@ -12,7 +12,7 @@ const EduLeng = ({ icon, title, EduLeng }) => {
                 {EduLeng.map((eduleng, index) => (
                     <div className="skill-box skill-box-black" key={index}>
                         <h3 className="">{eduleng.course}</h3>
-                        <p >{eduleng.center}</p>
+                        <p>{eduleng.center}</p>
                     </div>
                 ))}
             </div>
@@ -26,9 +26,9 @@ EduLeng.propTypes = {
     EduLeng: PropTypes.arrayOf(
         PropTypes.shape({
             course: PropTypes.string,
-            center: PropTypes.string
+            center: PropTypes.string,
         })
-    ).isRequired
+    ).isRequired,
 };
 
 export default EduLeng;

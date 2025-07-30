@@ -2,7 +2,6 @@ import "./ExperienciaProfesional.scss";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-
 const ExperienciaProfesional = ({ experiencias }) => {
     const { t } = useTranslation();
 
@@ -33,8 +32,6 @@ const ExperienciaProfesional = ({ experiencias }) => {
     );
 };
 
-
-
 ExperienciaProfesional.propTypes = {
     experiencias: PropTypes.arrayOf(
         PropTypes.shape({
@@ -45,6 +42,5 @@ ExperienciaProfesional.propTypes = {
         })
     ),
 };
-
 
 export default ExperienciaProfesional;
