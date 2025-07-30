@@ -14,7 +14,7 @@ export default {
     //About Me
     sobre_mi: "About Me",
     sobre_mi_primero: "I am an IT professional with over 3 years of experience in incident management, systems administration, and cybersecurity. I specialize in implementing secure solutions, managing critical infrastructures, and designing and administering SQL databases.",
-    sobre_mi_segundo: "When it comes to work, I consider myself hardworking, organized, and adaptable. I have a patient and kind attitude, which allows me to integrate easily into teams and provide effective customer service. I am people-oriented and strive for excellence, always looking to improve both technically and personally.",
+    sobre_mi_segundo: "I am a hardworking, organized, adaptable, and proactive person. I have a patient and kind attitude, which allows me to integrate easily into teams and provide effective customer service. I am people-oriented and strive for excellence, always looking to improve both technically and personally.",
 
     //Badge
     badgecard_title_lenguages: "Programming Languages",
