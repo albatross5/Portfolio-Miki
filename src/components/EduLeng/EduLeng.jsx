@@ -10,7 +10,7 @@ const EduLeng = ({ icon, title, EduLeng }) => {
             </div>
             <div className="skills-container-edueng">
                 {EduLeng.map((eduleng, index) => (
-                    <div className="skill-box skill-box-black" key={index}>
+                    <div className="skill-box-edueng skill-box-black-edueng" key={index}>
                         <h3 className="">{eduleng.course}</h3>
                         <p>{eduleng.center}</p>
                     </div>

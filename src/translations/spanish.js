@@ -104,7 +104,7 @@ export default {
     language_es: "Español",
     language_cat: "Catalan",
     language_rom: "Rumano",
-    language_eng: "Ingléso",
+    language_eng: "Inglés",
 
     //LVL
     language_native: "Nativo",
