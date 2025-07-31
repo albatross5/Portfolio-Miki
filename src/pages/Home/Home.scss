@@ -108,22 +108,45 @@
     }
 
     .subtitle {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .header-content {
         flex-direction: column;
         text-align: center;
+        gap: 1.5rem;
     }
 
     .header-info {
         text-align: center;
+        width: 100%;
     }
 
     .contact-info {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-item {
+        font-size: 0.9rem;
+    }
+
+    .header-buttons {
+        justify-content: center;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+        flex: 1;
+        min-width: 120px;
+        max-width: 150px;
     }
 
     .skills-grid {
@@ -141,15 +164,342 @@
     .experience-header {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .header-buttons {
-        justify-content: center;
+        gap: 0.5rem;
     }
 
     .contact-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-buttons .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .header {
+        padding: 1.5rem 0;
+    }
+
+    .container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .subtitle span {
+        display: block;
+        margin: 0.25rem 0;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-content {
+        gap: 1.25rem;
+    }
+
+    .contact-info {
+        gap: 0.75rem;
+    }
+
+    .contact-item {
+        font-size: 0.85rem;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: none;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .header {
+        padding: 1.25rem 0;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .skill-box {
+        padding: 1.25rem;
+    }
+
+    .skill-box-title {
+        font-size: 1rem;
+    }
+
+    .skill-box-description {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-title {
+        font-size: 1.75rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-content {
+        gap: 1rem;
+    }
+
+    .contact-item {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        padding: 0.65rem 0.85rem;
+        font-size: 0.85rem;
+    }
+
+    .container {
+        padding: 0 0.75rem;
+    }
+
+    .card {
+        padding: 1.25rem;
+    }
+}
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .header-info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-info {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-item {
+        font-size: 0.9rem;
+    }
+
+    .header-buttons {
+        justify-content: center;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+        flex: 1;
+        min-width: 120px;
+        max-width: 150px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-buttons .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .header {
+        padding: 1.5rem 0;
+    }
+
+    .container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .subtitle span {
+        display: block;
+        margin: 0.25rem 0;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-content {
+        gap: 1.25rem;
+    }
+
+    .contact-info {
+        gap: 0.75rem;
+    }
+
+    .contact-item {
+        font-size: 0.85rem;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: none;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .header {
+        padding: 1.25rem 0;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .skill-box {
+        padding: 1.25rem;
+    }
+
+    .skill-box-title {
+        font-size: 1rem;
+    }
+
+    .skill-box-description {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-title {
+        font-size: 1.75rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-content {
+        gap: 1rem;
+    }
+
+    .contact-item {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        padding: 0.65rem 0.85rem;
+        font-size: 0.85rem;
+    }
+
+    .container {
+        padding: 0 0.75rem;
+    }
+
+    .card {
+        padding: 1.25rem;
     }
 }
 

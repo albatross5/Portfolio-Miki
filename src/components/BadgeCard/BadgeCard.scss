@@ -13,9 +13,10 @@
     box-shadow: 0 25px 50px rgba(16, 185, 129, 0.1);
 }
 
-.iconos-badge {
+.iconos-badge-badge {
     filter: drop-shadow(0 0 1ex rgb(255, 255, 255));
     width: 22px;
+    margin-right: 10px;
 }
 
 .skills-container {
@@ -31,8 +32,9 @@
     padding: 10px;
     text-align: center;
     transition: all 0.3s ease;
-    position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .skill-box::before {
@@ -59,7 +61,6 @@
 .skill-box-title {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
     transition: color 0.3s ease;
 }
 

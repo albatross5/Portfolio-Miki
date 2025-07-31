@@ -15,26 +15,33 @@ const Home = () => {
             icon: "/assets/code.svg",
             title: t("badgecard_title_lenguages"),
             skills: [
-                { name: "SQL", icon: "/assets/database.svg" },
                 { name: "Python", icon: "/assets/python.svg" },
                 { name: "HTML", icon: "/assets/html.svg" },
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
-                { name: "JSON", icon: "/assets/braces.svg" },
-                { name: "OutSystems", icon: "/assets/outsystems.svg" },
+                { name: "JSON", icon: "/assets/braces.svg" }
             ],
         },
         {
             icon: "/assets/tool.svg",
             title: t("badgecard_title_herramientas"),
             skills: [
-                { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
-                { name: "Windows Server", icon: "/assets/server.svg" },
                 { name: "Linux", icon: "/assets/linux.svg" },
-                { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
+                { name: "Windows Server", icon: "/assets/server.svg" },
                 { name: "GitHub", icon: "/assets/github.svg" },
                 { name: "Microsoft 365", icon: "/assets/windows.svg" },
                 { name: "SAGE 200", icon: "/assets/sage.svg" },
+                { name: "OutSystems", icon: "/assets/outsystems.svg" }
+            ],
+        },
+        {
+            icon: "/assets/code.svg",
+            title: "Base de Datos",
+            skills: [
+                { name: "SQL", icon: "/assets/database.svg" },
+                { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
+                { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
+                
             ],
         },
     ];

@@ -17,7 +17,7 @@ export default {
     sobre_mi_segundo: "Soy una persona trabajadora, ordenada, adaptable y proactiva. Poseo una actitud paciente y amable, lo que me permite integrarme fácilmente en equipos de trabajo y ofrecer una atención eficaz de cara al público.Estoy orientado a las personas y a la excelencia, buscando siempre mejorar tanto en lo técnico como en lo humano.",
 
     //Badge
-    badgecard_title_lenguages: "Lenguajes de Programación",
+    badgecard_title_lenguages: "Programación",
     badgecard_title_herramientas: "Herramientas",
 
     
@@ -87,7 +87,7 @@ export default {
     //Educacion y Idiomas
 
     //Educacion
-    education_title: "Educación",
+    education_title: "Formacion",
 
     //CFGS
     education_cfgs: "CFGS Administración de Sistemas Informáticos en Red con especialización en Ciberseguridad",

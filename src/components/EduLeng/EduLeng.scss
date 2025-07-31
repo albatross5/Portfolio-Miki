@@ -21,7 +21,7 @@
 .skills-container-edueng {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
-    justify-content: start;
+    justify-content: center;
     gap: 1rem;
 }
 

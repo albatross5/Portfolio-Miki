@@ -11,7 +11,7 @@ const BadgeCard = ({ icon, title, skills }) => {
                 {skills.map((skill, index) => (
                     <div key={index} className="skill-box skill-box-black">
                         <img
-                            class="iconos-badge"
+                            class="iconos-badge-badge"
                             src={skill.icon}
                             alt={skill.name}
                         />

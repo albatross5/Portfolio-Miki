@@ -80,7 +80,7 @@ export default {
     certification_sql_10: "IaaS Solutions with Azure SQL",
 
     //Education and Languages
-    education_title: "Education",
+    education_title: "Formation",
 
     //CFGS
     education_cfgs: "Advanced Vocational Training in Networked Computer Systems Administration with a specialization in Cybersecurity",
