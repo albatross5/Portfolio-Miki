@@ -29,7 +29,7 @@ Este proyecto es una **web personal responsive** desarrollada con tecnologías m
    git clone https://github.com/albatross5/Web-Personal
 
 2. Instala las dependencias:
-   npm install
+   npm i --legacy-peer-deps
 
 3. Ejecuta el servidor de desarrollo:
    npm run dev
