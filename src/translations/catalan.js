@@ -99,7 +99,7 @@ export default {
     language_eng: "Anglès",
 
     language_native: "Natiu",
-    language_advanced: "Avançat",
+    language_mid: "Mitjà",
     language_basic: "Bàsic",
 
     contactme_title: "Contacta amb mi!",

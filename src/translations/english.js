@@ -99,7 +99,7 @@ export default {
 
     //LVL
     language_native: "Native",
-    language_advanced: "Advanced",
+    language_mid: "Half",
     language_basic: "Basic",
 
     //Contact Me

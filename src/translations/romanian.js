@@ -109,7 +109,7 @@ export default {
 
     //LVL
     language_native: "Natîvă",
-    language_advanced: "Avansată",
+    language_mid: "Jumătate",
     language_basic: "Bazică",
 
     //Contactează-mă

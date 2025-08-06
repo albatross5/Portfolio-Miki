@@ -119,7 +119,7 @@ const Home = () => {
                 },
                 {
                     course: t("language_rom"),
-                    center: t("language_advanced"),
+                    center: t("language_mid"),
                 },
                 {
                     course: t("language_eng"),

@@ -108,7 +108,7 @@ export default {
 
     //LVL
     language_native: "Nativo",
-    language_advanced: "Avanzado",
+    language_mid: "Medio",
     language_basic: "Basico",
 
     //Contacta conmigo
