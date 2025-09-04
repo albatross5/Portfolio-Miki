@@ -1,5 +1,3 @@
-"use client"
-
 import "./Error404.scss"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
@@ -114,4 +112,4 @@ const Error404 = () => {
   )
 }
 
-export default Error404
+export default Error404;
