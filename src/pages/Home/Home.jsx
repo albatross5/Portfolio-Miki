@@ -7,6 +7,7 @@ import Certificates from "../../components/Certificates/Certificates";
 import EduLeng from "../../components/EduLeng/EduLeng";
 import InfoCert from "../../components/InfoCert/InfoCert";
 import Footer from "../../components/Footer/Footer";
+import Form from "../../components/Form/Form";
 
 const Home = () => {
     const { t } = useTranslation();
@@ -246,9 +247,10 @@ const Home = () => {
                     </section>
 
                     {/* -----------------Seccion de CONTACTAME----------------- */}
-                    <section class="section">
-                        <div class="card contact-card">
-                            <h2 class="contact-title">
+                    
+                            <Form />
+                            
+                            {/* <h2 class="contact-title">
                                 {t("contactme_title")}
                             </h2>
                             <p class="contact-subtitle">
@@ -267,9 +269,8 @@ const Home = () => {
                                 >
                                     {t("contactme_number")}
                                 </a>
-                            </div>
-                        </div>
-                    </section>
+                            </div> */}
+                        
                 </section>
             </main>
 
