@@ -8,6 +8,7 @@ import EduLeng from "../../components/EduLeng/EduLeng";
 import InfoCert from "../../components/InfoCert/InfoCert";
 import Footer from "../../components/Footer/Footer";
 import Form from "../../components/Form/Form";
+// import LanguageSelector from "../../components/LanguageSelector/LanguageSelector"; ESTO ES EL SELECTOR DE IDIOMA
 
 const Home = () => {
     const { t } = useTranslation();
@@ -20,7 +21,7 @@ const Home = () => {
                 { name: "HTML", icon: "/assets/html.svg" },
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
-                { name: "JSON", icon: "/assets/braces.svg" }
+                { name: "JSON", icon: "/assets/braces.svg" },
             ],
         },
         {
@@ -32,7 +33,7 @@ const Home = () => {
                 { name: "GitHub", icon: "/assets/github.svg" },
                 { name: "Microsoft 365", icon: "/assets/windows.svg" },
                 { name: "SAGE 200", icon: "/assets/sage.svg" },
-                { name: "OutSystems", icon: "/assets/outsystems.svg" }
+                { name: "OutSystems", icon: "/assets/outsystems.svg" },
             ],
         },
         {
@@ -42,7 +43,6 @@ const Home = () => {
                 { name: "SQL", icon: "/assets/database.svg" },
                 { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
                 { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
-                
             ],
         },
     ];
@@ -181,7 +181,7 @@ const Home = () => {
         <div class="main-container">
             {/* -----------------Seccion de HEADER----------------- */}
             <Header></Header>
-
+            {/* <LanguageSelector></LanguageSelector> AQUI SE LE LLAMA AL IDIOMA */}
             <main class="main-content">
                 <section class="container">
                     <section class="section">
@@ -247,10 +247,10 @@ const Home = () => {
                     </section>
 
                     {/* -----------------Seccion de CONTACTAME----------------- */}
-                    
-                            <Form />
-                            
-                            {/* <h2 class="contact-title">
+
+                    <Form />
+
+                    {/* <h2 class="contact-title">
                                 {t("contactme_title")}
                             </h2>
                             <p class="contact-subtitle">
@@ -270,7 +270,6 @@ const Home = () => {
                                     {t("contactme_number")}
                                 </a>
                             </div> */}
-                        
                 </section>
             </main>
 

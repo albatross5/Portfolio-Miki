@@ -9,7 +9,7 @@ import catalan from "./translations/catalan";
 
 const locale = Intl.DateTimeFormat().resolvedOptions().locale;
 i18n
-  .use(LanguageDetector)
+  .use(LanguageDetector) //localizationContext
   .use(initReactI18next)
   .init({
     resources: {
