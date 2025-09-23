@@ -73,6 +73,8 @@ export default {
     //Certificaciones INFO
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
+    certificate_github_info_1: "Introduccion a Git",
+    certificate_github_info_2: "Introduccion a Administracion GitHub",
     certification_sql_1: "Introducción al análisis de datos",
     certification_sql_2: "Ordenación y filtrado en T-SQL",
     certification_sql_3: "JOIN en T-SQL",

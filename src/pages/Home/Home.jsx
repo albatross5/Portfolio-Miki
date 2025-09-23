@@ -54,11 +54,11 @@ const Home = () => {
             company: t("experience_enterprise_1"),
             description: t("experience_description_1"),
         },
-        {
-            title: t("experience_titulo_2"),
-            period: t("experience_period_2"),
-            company: t("experience_enterprise_2"),
-        },
+        // {
+        //     title: t("experience_titulo_2"),
+        //     period: t("experience_period_2"),
+        //     company: t("experience_enterprise_2"),
+        // },
         {
             title: t("experience_titulo_3"),
             period: t("experience_period_3"),
@@ -134,6 +134,14 @@ const Home = () => {
         {
             text: t("certificate_cisco_info"),
             pdf: "https://drive.google.com/file/d/1zod6OykcCjYzaklrv7fHAAwjdVwNuzC-/view?usp=drive_link",
+        },
+        {
+            text: t("certificate_github_info_1"),
+            pdf: "https://drive.google.com/file/d/1NhrGrzvYhR48gMuVMtmANAn1KtCWoWXV/view?usp=sharing",
+        },
+        {
+            text: t("certificate_github_info_2"),
+            pdf: "https://drive.google.com/file/d/147ShQCx7jZ-9lDwil5iapk08A34ISRVG/view?usp=sharing",
         },
         {
             text: t("certification_sql_1"),
