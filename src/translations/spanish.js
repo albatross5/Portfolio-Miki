@@ -27,10 +27,10 @@ export default {
     experience: "Experiencia Profesional",
 
     //2025
-    experience_titulo_1: "Técnico Informatico / QA (Quality Assurance en desarrollo web)",
+    experience_titulo_1: "Administrador de Sistemas / QA (Quality Assurance en desarrollo web)",
     experience_period_1: "Marzo 2025 / Actualmente",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y remoto a diferentes centros educativos. Formacion en plataforma SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...",
+    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y remoto a diferentes centros educativos. Formacion en plataforma SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...Ofrecer soporte a centros educativos a nivel administrativo y tecnico.",
 
     //2024
     experience_titulo_2: "Auxiliar de caja",
