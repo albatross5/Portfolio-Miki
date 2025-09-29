@@ -21,11 +21,7 @@ const Home = () => {
                 { name: "HTML", icon: "/assets/html.svg" },
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
-                { name: "JSON", icon: "/assets/braces.svg" },
-<<<<<<< Updated upstream
-=======
-                { name: "React", icon: "/assets/react.svg" }
->>>>>>> Stashed changes
+                { name: "JSON", icon: "/assets/braces.svg" }                
             ],
         },
         {
@@ -37,7 +33,8 @@ const Home = () => {
                 { name: "GitHub", icon: "/assets/github.svg" },
                 { name: "Microsoft 365", icon: "/assets/windows.svg" },
                 { name: "SAGE 200", icon: "/assets/sage.svg" },
-                { name: "OutSystems", icon: "/assets/outsystems.svg" },
+                { name: "React", icon: "/assets/react.svg" },
+                { name: "WordPress", icon: "/assets/wordpress.svg" }
             ],
         },
         {
@@ -47,10 +44,7 @@ const Home = () => {
                 { name: "SQL", icon: "/assets/database.svg" },
                 { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
                 { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
+                { name: "MongoDB", icon: "/assets/mongodb.svg" }
             ],
         },
     ];
@@ -62,14 +56,11 @@ const Home = () => {
             company: t("experience_enterprise_1"),
             description: t("experience_description_1"),
         },
-<<<<<<< Updated upstream
         // {
         //     title: t("experience_titulo_2"),
         //     period: t("experience_period_2"),
         //     company: t("experience_enterprise_2"),
         // },
-=======
->>>>>>> Stashed changes
         {
             title: t("experience_titulo_3"),
             period: t("experience_period_3"),
@@ -96,12 +87,85 @@ const Home = () => {
             year: t("certificate_sage_year"),
         },
         {
+            title: t("certificate_sage_1"),
+            description: t("certificate_sage_1_description"),
+            year: t("certificate_sage_1_year"),
+        },
+        {
             title: t("certificate_cisco"),
             description: t("certificate_cisco_description"),
             year: t("certificate_cisco_year"),
         },
     ];
 
+
+    const infocert = [
+        {
+            image: "/assets/python.svg",
+            text: t("certificate_cisco_info"),
+            pdf: "https://drive.google.com/file/d/1zod6OykcCjYzaklrv7fHAAwjdVwNuzC-/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certificate_github_info_1"),
+            pdf: "https://drive.google.com/file/d/1NhrGrzvYhR48gMuVMtmANAn1KtCWoWXV/view?usp=sharing",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certificate_github_info_2"),
+            pdf: "https://drive.google.com/file/d/147ShQCx7jZ-9lDwil5iapk08A34ISRVG/view?usp=sharing",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_1"),
+            pdf: "https://drive.google.com/file/d/1Rk9YmX6fgT17h5ugcb4W6sjy5bGMg2xW/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_2"),
+            pdf: "https://drive.google.com/file/d/1mI5NdEC638eQ80dukp1f4UrroIVlNzKl/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_3"),
+            pdf: "https://drive.google.com/file/d/1gL9xec3Mz3cr5IvB2u5l44av-rirAR5R/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_4"),
+            pdf: "https://drive.google.com/file/d/18PWIACt1tAOBcso5k8St0JdrFXmZK46w/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_5"),
+            pdf: "https://drive.google.com/file/d/17hclBBHM0vYt3bIBLJbffJW4orUdtA2k/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_6"),
+            pdf: "https://drive.google.com/file/d/10VLAh99w79EEWOINR9bSlaTQFIk09vFa/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_7"),
+            pdf: "https://drive.google.com/file/d/108mw3cLl4S5KlNxO0GS9JMJN5G-EmcqW/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_8"),
+            pdf: "https://drive.google.com/file/d/1veUA3v7n2GPPHdKBIpH3N6-nHV5h0Imh/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_9"),
+            pdf: "https://drive.google.com/file/d/1i8FOUzkGdy7quMkOJaHIXKjU1vVcK306/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_10"),
+            pdf: "https://drive.google.com/file/d/1071q8gZAsdcsCDNt-joLJxxvjQ8w1rfx/view?usp=drive_link",
+        },
+    ];
     const eduleng = [
         {
             icon: "/assets/certificate.svg",
@@ -138,61 +202,6 @@ const Home = () => {
                     center: t("language_basic"),
                 },
             ],
-        },
-    ];
-
-    const infocert = [
-        {
-            text: t("certificate_cisco_info"),
-            pdf: "https://drive.google.com/file/d/1zod6OykcCjYzaklrv7fHAAwjdVwNuzC-/view?usp=drive_link",
-        },
-        {
-            text: t("certificate_github_info_1"),
-            pdf: "https://drive.google.com/file/d/1NhrGrzvYhR48gMuVMtmANAn1KtCWoWXV/view?usp=sharing",
-        },
-        {
-            text: t("certificate_github_info_2"),
-            pdf: "https://drive.google.com/file/d/147ShQCx7jZ-9lDwil5iapk08A34ISRVG/view?usp=sharing",
-        },
-        {
-            text: t("certification_sql_1"),
-            pdf: "https://drive.google.com/file/d/1Rk9YmX6fgT17h5ugcb4W6sjy5bGMg2xW/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_2"),
-            pdf: "https://drive.google.com/file/d/1mI5NdEC638eQ80dukp1f4UrroIVlNzKl/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_3"),
-            pdf: "https://drive.google.com/file/d/1gL9xec3Mz3cr5IvB2u5l44av-rirAR5R/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_4"),
-            pdf: "https://drive.google.com/file/d/18PWIACt1tAOBcso5k8St0JdrFXmZK46w/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_5"),
-            pdf: "https://drive.google.com/file/d/17hclBBHM0vYt3bIBLJbffJW4orUdtA2k/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_6"),
-            pdf: "https://drive.google.com/file/d/10VLAh99w79EEWOINR9bSlaTQFIk09vFa/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_7"),
-            pdf: "https://drive.google.com/file/d/108mw3cLl4S5KlNxO0GS9JMJN5G-EmcqW/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_8"),
-            pdf: "https://drive.google.com/file/d/1veUA3v7n2GPPHdKBIpH3N6-nHV5h0Imh/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_9"),
-            pdf: "https://drive.google.com/file/d/1i8FOUzkGdy7quMkOJaHIXKjU1vVcK306/view?usp=drive_link",
-        },
-        {
-            text: t("certification_sql_10"),
-            pdf: "https://drive.google.com/file/d/1071q8gZAsdcsCDNt-joLJxxvjQ8w1rfx/view?usp=drive_link",
         },
     ];
 
@@ -289,10 +298,7 @@ const Home = () => {
                                     {t("contactme_number")}
                                 </a>
                             </div> */}
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
                 </section>
             </main>
 
