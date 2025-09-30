@@ -22,10 +22,7 @@ const Home = () => {
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
                 { name: "JSON", icon: "/assets/braces.svg" },
-<<<<<<< Updated upstream
-=======
                 { name: "React", icon: "/assets/react.svg" }
->>>>>>> Stashed changes
             ],
         },
         {
@@ -47,10 +44,6 @@ const Home = () => {
                 { name: "SQL", icon: "/assets/database.svg" },
                 { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
                 { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
             ],
         },
     ];
@@ -62,14 +55,13 @@ const Home = () => {
             company: t("experience_enterprise_1"),
             description: t("experience_description_1"),
         },
-<<<<<<< Updated upstream
+
         // {
         //     title: t("experience_titulo_2"),
         //     period: t("experience_period_2"),
         //     company: t("experience_enterprise_2"),
         // },
-=======
->>>>>>> Stashed changes
+
         {
             title: t("experience_titulo_3"),
             period: t("experience_period_3"),
@@ -289,10 +281,8 @@ const Home = () => {
                                     {t("contactme_number")}
                                 </a>
                             </div> */}
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
+                        
                 </section>
             </main>
 
