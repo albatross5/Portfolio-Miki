@@ -22,9 +22,7 @@ const Home = () => {
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
                 { name: "JSON", icon: "/assets/braces.svg" },
-                { name: "React", icon: "/assets/react.svg" },
-                { name: "JSON", icon: "/assets/braces.svg" }                
-            ],
+                ],
         },
         {
             icon: "/assets/tool.svg",
