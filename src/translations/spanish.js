@@ -27,10 +27,10 @@ export default {
     experience: "Experiencia Profesional",
 
     //2025
-    experience_titulo_1: "Administrador de Sistemas / QA (Quality Assurance en desarrollo web)",
+    experience_titulo_1: "Administrador de Sistemas / Desarrollador Web",
     experience_period_1: "Marzo 2025 / Actualmente",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y remoto a diferentes centros educativos. Formacion en plataforma SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...Ofrecer soporte a centros educativos a nivel administrativo y tecnico.",
+    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y en remoto a diferentes centros educativos a nivel administrativo y tecnico. Formacion en ERP SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...",
 
     //2024
     experience_titulo_2: "Auxiliar de caja",
@@ -61,9 +61,14 @@ export default {
     certificate_microsoft_year: "2025",
 
     //SAGE 200
-    certificate_sage: "SAGE 200 Administrador Informatico 70h",
-    certificate_sage_description: "Entender la BBDD de SAGE 200, administracion de la ERP, qwerys a la BBDD avanzado.",
+    certificate_sage: "SAGE 200 - 70h",
+    certificate_sage_description: "Entender la ERP y solicitar adaptaciones.",
     certificate_sage_year: "2025",
+
+    //SAGE 200 1
+    certificate_sage_1: "SAGE University - 200ES – Sage 200 – Taller de Expertos en Gestión",
+    certificate_sage_1_description: "Administracion de la ERP, Configuraciones avanzadas, Personalizacion de plantillas, Informes y Analisis.",
+    certificate_sage_1_year: "2025",
 
     //Cisco
     certificate_cisco: "PCAP: Programming Essentials in Python",
@@ -74,16 +79,16 @@ export default {
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
     certificate_github_info_1: "Introduccion a Git",
-    certificate_github_info_2: "Introduccion a Administracion GitHub",
+    certificate_github_info_2: "Administracion GitHub",
     certification_sql_1: "Introducción al análisis de datos",
     certification_sql_2: "Ordenación y filtrado en T-SQL",
     certification_sql_3: "JOIN en T-SQL",
     certification_sql_4: "Escritura de subconsultas en T-SQL",
     certification_sql_5: "Modificación de datos con T-SQL",
     certification_sql_6: "Funciones integradas en T-SQL",
-    certification_sql_7: "Introducción a los conceptos de datos",
+    certification_sql_7: "Conceptos de datos",
     certification_sql_8: "Programación con T-SQL",
-    certification_sql_9: "Mantener BBDD en SQL Server Azure",
+    certification_sql_9: "BBDD en SQL Server Azure",
     certification_sql_10: "Soluciones IaaS con Azure SQL",
 
     //Educacion y Idiomas

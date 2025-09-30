@@ -29,6 +29,7 @@ const infoCert = ({ infocert }) => {
                             height="400px"
                         > 
                         </object> */}
+                        <img className="cert-icon" src={item.image} alt={item.text} />
                         <a
                             className="skill-box-title"
                             href={item.pdf}
@@ -48,6 +49,7 @@ infoCert.propTypes = {
         PropTypes.shape({
             pdf: PropTypes.string.isRequired,
             text: PropTypes.string,
+            image: PropTypes.string.isRequired,
         })
     ).isRequired,
 };
