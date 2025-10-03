@@ -22,19 +22,20 @@ const Home = () => {
                 { name: "CSS", icon: "/assets/css.svg" },
                 { name: "JavaSctipt", icon: "/assets/js.svg" },
                 { name: "JSON", icon: "/assets/braces.svg" },
-                ],
+                { name: "React", icon: "/assets/react.svg" },
+            ],
         },
         {
             icon: "/assets/tool.svg",
             title: t("badgecard_title_herramientas"),
             skills: [
+                { name: "Microsoft 365", icon: "/assets/windows.svg" },
+                { name: "SharePoint", icon: "/assets/sharepoint.svg" },
+                { name: "GitHub", icon: "/assets/github.svg" },
                 { name: "Linux", icon: "/assets/linux.svg" },
                 { name: "Windows Server", icon: "/assets/server.svg" },
-                { name: "GitHub", icon: "/assets/github.svg" },
-                { name: "Microsoft 365", icon: "/assets/windows.svg" },
                 { name: "SAGE 200", icon: "/assets/sage.svg" },
-                { name: "React", icon: "/assets/react.svg" },
-                { name: "WordPress", icon: "/assets/wordpress.svg" }
+                { name: "WordPress", icon: "/assets/wordpress.svg" },  
             ],
         },
         {
@@ -44,7 +45,8 @@ const Home = () => {
                 { name: "SQL", icon: "/assets/database.svg" },
                 { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
                 { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
-                { name: "MongoDB", icon: "/assets/mongodb.svg" }
+                { name: "MongoDB", icon: "/assets/mongodb.svg" },
+                { name: "Azure", icon: "/assets/azure.svg" },
             ],
         },
     ];
@@ -84,6 +86,11 @@ const Home = () => {
             year: t("certificate_microsoft_year"),
         },
         {
+            title: t("certificate_ia"),
+            description: t("certificate_ia_description"),
+            year: t("certificate_ia_year"),
+        },
+        {
             title: t("certificate_sage"),
             description: t("certificate_sage_description"),
             year: t("certificate_sage_year"),
@@ -100,12 +107,16 @@ const Home = () => {
         },
     ];
 
-
     const infocert = [
         {
             image: "/assets/python.svg",
             text: t("certificate_cisco_info"),
             pdf: "https://drive.google.com/file/d/1zod6OykcCjYzaklrv7fHAAwjdVwNuzC-/view?usp=drive_link",
+        },
+        {
+            image: "/assets/ai.svg",
+            text: t("certificate_ia_info"),
+            pdf: "https://drive.google.com/file/d/1CenofL0VetnHL2ac-VWZ2CgMm0g0kCUk/view?usp=drive_link",
         },
         {
             image: "/assets/windows.svg",
@@ -300,8 +311,6 @@ const Home = () => {
                                     {t("contactme_number")}
                                 </a>
                             </div> */}
-
-                        
                 </section>
             </main>
 

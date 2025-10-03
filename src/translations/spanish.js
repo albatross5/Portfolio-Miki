@@ -1,11 +1,11 @@
 export default {
 
     //Header
-    header_title: "Miguel Ramirez",
+    header_title: "Miguel Ramírez Sánchez",
     header_subtitle_programmer: " Programador",
     header_subtitle_system:"Administrador de Sistemas ",
     header_location: "Barcelona, España",
-    header_email: "miguelramirezsanchezr6@gmail.com",
+    header_email: "miguelramirezsanchezr11.info4@gmail.com",
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
     header_github: "GitHub",
@@ -13,7 +13,7 @@ export default {
 
     //Sobre Mi
     sobre_mi: "Sobre Mi",
-    sobre_mi_primero: "Soy un profesional en IT con más de 3 años de experiencia en la gestión de incidencias, administración de sistemas y ciberseguridad. Me especializo en la implementación de soluciones seguras, la gestión de infraestructuras críticas y el diseño y administración de bases de datos SQL.",
+    sobre_mi_primero: "Soy un profesional en IT con 3 años de experiencia en la gestión de incidencias, administración de sistemas y ciberseguridad. Me especializo en la implementación de soluciones seguras, la gestión de infraestructuras críticas y el diseño y administración de bases de datos SQL.",
     sobre_mi_segundo: "Soy una persona trabajadora, ordenada, adaptable y proactiva. Poseo una actitud paciente y amable, lo que me permite integrarme fácilmente en equipos de trabajo y ofrecer una atención eficaz de cara al público.Estoy orientado a las personas y a la excelencia, buscando siempre mejorar tanto en lo técnico como en lo humano.",
 
     //Badge
@@ -60,6 +60,11 @@ export default {
     certificate_microsoft_description: "Mas información en la siguiente sección.",
     certificate_microsoft_year: "2025",
 
+    //IA
+    certificate_ia: "BIG School - Desarrollo con IA",
+    certificate_ia_description: "Certificado oficial Microsoft. Mas información en la siguiente sección.",
+    certificate_ia_year: "2025",
+
     //SAGE 200
     certificate_sage: "SAGE 200 - 70h",
     certificate_sage_description: "Entender la ERP y solicitar adaptaciones.",
@@ -73,11 +78,12 @@ export default {
     //Cisco
     certificate_cisco: "PCAP: Programming Essentials in Python",
     certificate_cisco_description: "Certificado oficial Cisco Networking Academy. Mas información en la siguiente sección.",
-    certificate_cisco_year: "2023",
+    certificate_cisco_year: "2024",
 
     //Certificaciones INFO
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
+    certificate_ia_info: "Desarrollo con IA",
     certificate_github_info_1: "Introduccion a Git",
     certificate_github_info_2: "Administracion GitHub",
     certification_sql_1: "Introducción al análisis de datos",
