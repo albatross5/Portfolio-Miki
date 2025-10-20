@@ -2,7 +2,7 @@ export default {
 
     //Header
     header_title: "Miguel Ramírez Sánchez",
-    header_subtitle_programmer: " Programador",
+    header_subtitle_programmer: " Programador Web",
     header_subtitle_system:"Administrador de Sistemas ",
     header_location: "Barcelona, España",
     header_email: "miguelramirezsanchezr11.info4@gmail.com",
@@ -13,11 +13,12 @@ export default {
 
     //Sobre Mi
     sobre_mi: "Sobre Mi",
-    sobre_mi_primero: "Soy un profesional en IT con 3 años de experiencia en la gestión de incidencias, administración de sistemas y ciberseguridad. Me especializo en la implementación de soluciones seguras, la gestión de infraestructuras críticas y el diseño y administración de bases de datos SQL.",
-    sobre_mi_segundo: "Soy una persona trabajadora, ordenada, adaptable y proactiva. Poseo una actitud paciente y amable, lo que me permite integrarme fácilmente en equipos de trabajo y ofrecer una atención eficaz de cara al público.Estoy orientado a las personas y a la excelencia, buscando siempre mejorar tanto en lo técnico como en lo humano.",
-
+    sobre_mi_primero: "Soy Miguel Ramírez, técnico informático en formación con mas de 2 años de experiencia, con especialización en bases de datos, ciberseguridad y desarrollo web, colaboro en proyectos de gestión de datos y aplicaciones internas, a parte de las tareas de administracion de sistemas.",
+    sobre_mi_segundo: "Me considero una persona trabajadora, ordenada, paciente y amable, con gran capacidad de adaptación a distintos estilos de trabajo. Destaco por ser resolutivo, activo y proactivo, y por saber trabajar tanto en equipo como de forma autónoma, siempre orientado a las personas y a la excelencia.",
+    sobre_mi_tercero: "Además, tengo una gran pasión por la música: toco el piano con gran destreza y he compuesto piezas que han sido interpretadas en conferencias, exposiciones, cenas y espectáculos. Esta faceta artística me ha enseñado a desarrollar la creatividad, la concentración y la sensibilidad, cualidades que aplico también en el entorno profesional.",
+    sobre_mi_cuarto: "En mi tiempo libre me mantengo informado sobre las últimas novedades en SQL y ciberseguridad, áreas que me apasionan y en las que busco seguir creciendo profesionalmente.",
     //Badge
-    badgecard_title_lenguages: "Programación",
+    badgecard_title_lenguages: "Lenguajes",
     badgecard_title_herramientas: "Herramientas",
 
     

@@ -17,12 +17,13 @@ const Home = () => {
             icon: "/assets/code.svg",
             title: t("badgecard_title_lenguages"),
             skills: [
-                { name: "Python", icon: "/assets/python.svg" },
+                { name: "SQL", icon: "/assets/database.svg" },
                 { name: "HTML", icon: "/assets/html.svg" },
                 { name: "CSS", icon: "/assets/css.svg" },
-                { name: "JavaSctipt", icon: "/assets/js.svg" },
-                { name: "JSON", icon: "/assets/braces.svg" },
-                { name: "React", icon: "/assets/react.svg" },
+                { name: "JavaScript", icon: "/assets/js.svg" },
+                { name: "Python", icon: "/assets/python.svg" },
+                { name: "JSON", icon: "/assets/braces.svg" }
+                
             ],
         },
         {
@@ -36,16 +37,16 @@ const Home = () => {
                 { name: "Windows Server", icon: "/assets/server.svg" },
                 { name: "SAGE 200", icon: "/assets/sage.svg" },
                 { name: "WordPress", icon: "/assets/wordpress.svg" },  
+                { name: "React", icon: "/assets/react.svg" },
             ],
         },
         {
             icon: "/assets/code.svg",
             title: "Base de Datos",
             skills: [
-                { name: "SQL", icon: "/assets/database.svg" },
                 { name: "MySQL Workbench", icon: "/assets/mysql.svg" },
                 { name: "Microsoft SQL Server", icon: "/assets/server2.svg" },
-                { name: "MongoDB", icon: "/assets/mongodb.svg" },
+                { name: "SSMS", icon: "/assets/database.svg" },
                 { name: "Azure", icon: "/assets/azure.svg" },
             ],
         },
@@ -233,7 +234,14 @@ const Home = () => {
                             <p>
                                 {t("sobre_mi_primero")}
                                 <br />
+                                <br />
                                 {t("sobre_mi_segundo")}
+                                <br />
+                                <br />
+                                {t("sobre_mi_tercero")}
+                                <br />
+                                <br />
+                                {t("sobre_mi_cuarto")}
                             </p>
                         </div>
                     </section>
