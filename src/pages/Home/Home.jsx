@@ -199,6 +199,7 @@ const Home = () => {
                     course: t("education_cfgm"),
                     center: t("education_cfgm_center"),
                 },
+                
             ],
         },
         {

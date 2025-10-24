@@ -9,6 +9,7 @@ export default {
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
     header_github: "GitHub",
+    header_carta: "Carta",
     header_download_cv: "CV",
 
     //Sobre Mi
@@ -86,7 +87,7 @@ export default {
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
     certificate_ia_info: "Desarrollo con IA",
-    certificate_github_info_1: "Introduccion a Git",
+    certificate_github_info_1: "Introduccion a GitHub",
     certificate_github_info_2: "Administracion GitHub",
     certification_sql_1: "Introducción al análisis de datos",
     certification_sql_2: "Ordenación y filtrado en T-SQL",

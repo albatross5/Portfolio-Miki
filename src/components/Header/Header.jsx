@@ -47,6 +47,15 @@ const Header = () => {
               <img className="iconos" src="/assets/github.svg" alt="GitHub" />
               {t("header_github")}
             </a>
+            <a
+              href="https://drive.google.com/file/d/1rUClS0A8jB0Tx_wxQmFGdGyDgXxLTZPz/view?usp=drive_link"
+              className="btn btn-outline github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="iconos" src="/assets/carta.svg" alt="GitHub" />
+              {t("header_carta")}
+            </a>
 
             <a
               href="https://drive.google.com/file/d/1SBhn_0EYvQy9YTiJ22STxKSXQJIGOOSF/view?usp=drive_link"
