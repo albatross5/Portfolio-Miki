@@ -87,28 +87,34 @@ const Home = () => {
             year: t("certificate_microsoft_year"),
         },
         {
-            title: t("certificate_ia"),
-            description: t("certificate_ia_description"),
-            year: t("certificate_ia_year"),
-        },
-        {
-            title: t("certificate_sage"),
-            description: t("certificate_sage_description"),
-            year: t("certificate_sage_year"),
-        },
-        {
             title: t("certificate_sage_1"),
             description: t("certificate_sage_1_description"),
             year: t("certificate_sage_1_year"),
+        },
+        {
+            title: t("certificate_ia"),
+            description: t("certificate_ia_description"),
+            year: t("certificate_ia_year"),
         },
         {
             title: t("certificate_cisco"),
             description: t("certificate_cisco_description"),
             year: t("certificate_cisco_year"),
         },
+        {
+            title: t("certificate_sage"),
+            description: t("certificate_sage_description"),
+            year: t("certificate_sage_year"),
+        },
+        
     ];
 
     const infocert = [
+        {
+            image: "/assets/sage.svg",
+            text: t("certificate_sage_info"),
+            pdf: "https://drive.google.com/file/d/1v7zHIvZkgrFBqaHSKlwigf1NEeMp2Tbp/view?usp=drive_link",
+        },
         {
             image: "/assets/python.svg",
             text: t("certificate_cisco_info"),

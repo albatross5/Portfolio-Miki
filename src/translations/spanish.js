@@ -31,7 +31,7 @@ export default {
     experience_titulo_1: "Administrador de Sistemas / Desarrollador Web",
     experience_period_1: "Marzo 2025 / Actualmente",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Especializacion en SQL. Formacion y especializacion en la plataforma OutSystems. Resolver incidencias en oficina y en remoto a diferentes centros educativos a nivel administrativo y tecnico. Formacion en ERP SAGE 200. Ayudante en creacion de aplicacion para gestionar facturas, pagos, comensales, estados, altas y bajas, seguimientos, asistencias...",
+    experience_description_1: "Especialización en ERP SAGE 200: Análisis de datos, creación de consultas SQL y formación continua en el entorno SAGE 200. Participación activa en la gestión de usuarios, licencias, permisos y carpetas compartidas. Soporte técnico: Resolución de incidencias tanto en oficina como en remoto para centros educativos, ofreciendo asistencia administrativa y técnica. Gestión de servidores: Administración mediante Active Directory, incluyendo control de usuarios, rendimiento del sistema y gestión de copias de seguridad. Documentación y formación: Elaboración de manuales y protocolos técnicos, así como formación directa a trabajadores. Colaboración con consultoría: Comunicación fluida y participación activa en proyectos con consultores externos. Especialización en SQL y OutSystems: Desarrollo de consultas avanzadas y formación en la plataforma OutSystems. Desarrollo de aplicaciones: Apoyo en la creación de herramientas para la gestión de facturas, pagos, comensales, estados, altas y bajas, seguimientos y asistencias.",
 
     //2024
     experience_titulo_2: "Auxiliar de caja",
@@ -82,6 +82,7 @@ export default {
     certificate_cisco_year: "2024",
 
     //Certificaciones INFO
+    certificate_sage_info: "SAGE 200 – Expertos en Gestión",
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
     certificate_ia_info: "Desarrollo con IA",

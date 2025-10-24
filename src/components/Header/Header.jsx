@@ -30,7 +30,7 @@ const Header = () => {
           </div>
           <div className="header-buttons">
             <a
-              href="https://www.linkedin.com/in/miguel-ramirez-sanchez-079843243/"
+              href="https://www.linkedin.com/in/miguel-ramirez-sanchez-sql/"
               className="btn btn-outline"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,7 +49,7 @@ const Header = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1lDjO4vO51z-dHUwobBbWXldXNRojkNEh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SBhn_0EYvQy9YTiJ22STxKSXQJIGOOSF/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
