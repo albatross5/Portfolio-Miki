@@ -185,6 +185,18 @@ const Home = () => {
             text: t("certification_sql_10"),
             pdf: "https://drive.google.com/file/d/1071q8gZAsdcsCDNt-joLJxxvjQ8w1rfx/view?usp=drive_link",
         },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_sql_11"),
+            pdf: "https://drive.google.com/file/d/1RudIMPLQAaWPIgb0sh6Y3CMZ0rTnC6Qr/view?usp=drive_link",
+        },
+        {
+            image: "/assets/windows.svg",
+            text: t("certification_AD"),
+            
+            pdf: "https://drive.google.com/file/d/1bBJZ0W_6pKWDo9q3QqJ_YnvZfdakQbVf/view?usp=drive_link",
+        },
+        
     ];
     const eduleng = [
         {

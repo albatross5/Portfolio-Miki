@@ -9,12 +9,15 @@ export default {
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
     header_github: "GitHub",
+    header_carta: "Carta",
     header_download_cv: "CV",
 
     //Sobre Mi
     sobre_mi: "Sobre mi",
-    sobre_mi_primero: "Sóc un professional en IT amb més de 3 anys d'experiència en la gestió d'incidències, administració de sistemes i ciberseguretat. Estic especialitzat en la implementació de solucions segures, la gestió d'infraestructures crítiques i el disseny i administració de bases de dades SQL.",
-    sobre_mi_segundo: "Sóc una persona treballadora, ordenada, adaptable i proactiva. Tinc una actitud pacient i amable, cosa que em permet integrar-me fàcilment en equips de treball i oferir una atenció eficaç de cara al públic. Estic orientat a les persones i a l'excel·lència, cercant sempre millorar tant tècnicament com humanament.",
+    sobre_mi_primero: "Soc en Miguel Ramírez, tècnic informàtic en formació amb més de 2 anys d’experiència, especialitzat en bases de dades, ciberseguretat i desenvolupament web. Col·laboro en projectes de gestió de dades i aplicacions internes, a més de dur a terme tasques d’administració de sistemes.",
+    sobre_mi_segundo: "Em considero una persona treballadora, ordenada, pacient i amable, amb gran capacitat d’adaptació a diferents estils de treball. Destaco per ser resolutiu, actiu i proactiu, i per saber treballar tant en equip com de manera autònoma, sempre orientat a les persones i a l’excel·lència.",
+    sobre_mi_tercero: "A més, tinc una gran passió per la música: toco el piano amb destresa i he compost peces que s’han interpretat en conferències, exposicions, sopars i espectacles. Aquesta faceta artística m’ha ensenyat a desenvolupar la creativitat, la concentració i la sensibilitat, qualitats que també aplico en l’entorn professional.",
+    sobre_mi_cuarto: "En el meu temps lliure, m’informo sobre les últimes novetats en SQL i ciberseguretat, àrees que m’apassionen i en les quals busco seguir creixent professionalment.",
 
     //Badge
     badgecard_title_lenguages: "Programació",
@@ -29,8 +32,7 @@ export default {
     experience_titulo_1: "Tècnic Informàtic / QA (Assegurament de Qualitat en desenvolupament web)",
     experience_period_1: "Març 2025 / Actualitat",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Especialització en SQL. Formació i especialització en la plataforma OutSystems. Resolució d'incidències a l'oficina i en remot a diferents centres educatius. Formació en la plataforma SAGE 200. Suport en la creació d'una aplicació per gestionar factures, pagaments, comensals, estats, altes i baixes, seguiments, assistències...",
-
+    experience_description_1: "Especialització en ERP SAGE 200: Anàlisi de dades, creació de consultes SQL i formació contínua en l'entorn SAGE 200. Participació activa en la gestió d'usuaris, llicències, permisos i carpetes compartides. Suport tècnic: Resolució d'incidències tant a l'oficina com en remot per a centres educatius, oferint assistència administrativa i tècnica. Gestió de servidors: Administració mitjançant Active Directory, incloent el control d'usuaris, el rendiment del sistema i la gestió de còpies de seguretat. Documentació i formació: Elaboració de manuals i protocols tècnics, així com formació directa als treballadors. Col·laboració amb consultoria: Comunicació fluida i participació activa en projectes amb consultors externs. Especialització en SQL i OutSystems: Desenvolupament de consultes avançades i formació en la plataforma OutSystems. Desenvolupament d'aplicacions: Suport en la creació d'eines per a la gestió de factures, pagaments, comensals, estats, altes i baixes, seguiments i assistències.",
     //2024
     experience_titulo_2: "Auxiliar de caixa",
     experience_period_2: "Juny 2024 / Agost 2024",

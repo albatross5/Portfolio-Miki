@@ -99,6 +99,8 @@ export default {
     certification_sql_8: "Programación con T-SQL",
     certification_sql_9: "BBDD en SQL Server Azure",
     certification_sql_10: "Soluciones IaaS con Azure SQL",
+    certification_sql_11: "Analisis a gran escala",
+    certification_AD: "Introducción a AD DS",
 
     //Educacion y Idiomas
 

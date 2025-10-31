@@ -9,13 +9,16 @@ export default {
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
     header_github: "GitHub",
+    header_carta: "Letter",
     header_download_cv: "CV",
 
     //About Me
     sobre_mi: "About Me",
-    sobre_mi_primero: "I am an IT professional with over 3 years of experience in incident management, systems administration, and cybersecurity. I specialize in implementing secure solutions, managing critical infrastructures, and designing and administering SQL databases.",
-    sobre_mi_segundo: "I am a hardworking, organized, adaptable, and proactive person. I have a patient and kind attitude, which allows me to integrate easily into teams and provide effective customer service. I am people-oriented and strive for excellence, always looking to improve both technically and personally.",
-
+    sobre_mi_primero: "I am Miguel Ramírez, an IT technician in training with over 2 years of experience, specialized in databases, cybersecurity, and web development. I collaborate on data management projects and internal applications, in addition to system administration tasks.",
+    sobre_mi_segundo: "I consider myself a hardworking, organized, patient, and kind person, with great adaptability to different work styles. I am proactive, solution-oriented, and capable of working both independently and in teams, always focused on people and excellence.",
+    sobre_mi_tercero: "I also have a great passion for music: I play the piano with skill and have composed pieces that have been performed at conferences, exhibitions, dinners, and shows. This artistic side has taught me creativity, concentration, and sensitivity—qualities I also apply in the professional environment.",
+    sobre_mi_cuarto: "In my free time, I stay informed about the latest developments in SQL and cybersecurity, areas I am passionate about and in which I seek to continue growing professionally.",
+    
     //Badge
     badgecard_title_lenguages: "Programming Languages",
     badgecard_title_herramientas: "Tools",
@@ -27,8 +30,8 @@ export default {
     experience_titulo_1: "IT Technician / QA (Quality Assurance in Web Development)",
     experience_period_1: "March 2025 / Present",
     experience_enterprise_1: "Cuina Justa",
-    experience_description_1: "Specialization in SQL. Training and specialization in the OutSystems platform. Resolving incidents in-office and remotely for various educational centers. Training in the SAGE 200 platform. Assistant in creating an application to manage invoices, payments, diners, statuses, registrations and cancellations, follow-ups, attendance...",
-
+    experience_description_1: "Specialization in ERP SAGE 200: Data analysis, creation of SQL queries, and continuous training in the SAGE 200 environment. Active participation in user, license, permission, and shared folder management. Technical support: Resolving incidents both in-office and remotely for educational centers, providing administrative and technical assistance. Server management: Administration via Active Directory, including user control, system performance, and backup management. Documentation and training: Preparation of technical manuals and protocols, as well as direct training for employees. Collaboration with consultancy: Smooth communication and active participation in projects with external consultants. Specialization in SQL and OutSystems: Development of advanced queries and training in the OutSystems platform. Application development: Support in creating tools for managing invoices, payments, diners, statuses, registrations and cancellations, follow-ups, and attendance.",
+    
     //2024
     experience_titulo_2: "Cashier Assistant",
     experience_period_2: "June 2024 / August 2024",
