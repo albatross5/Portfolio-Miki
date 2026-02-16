@@ -111,6 +111,22 @@ export default {
     contactme_mail: "Send Email",
     contactme_number: "Call Me",
 
+    contact: "Contact",
+    contact_subtitle: "Do you have any questions or proposals? Write to me!",
+    contact_mail: "Email",
+    contact_name: "Full Name",
+    contact_subject: "Subject",
+    contact_enterprise: "Company",
+    contact_message: "Message",
+    contact_send: "Send Email",
+
+    contact_mail_placeholder: "Enter your email address",
+    contact_name_placeholder: "Enter your full name",
+    contact_email_placeholder: "Enter your email address",
+    contact_subject_placeholder: "What do you want to talk about?",
+    contact_enterprise_placeholder: "Your company name (optional)",
+    contact_message_placeholder: "Write your message here...",
+
     //Footer
     footer_copy: "©",
     footer_rights: "All rights reserved."

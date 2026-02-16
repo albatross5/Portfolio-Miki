@@ -109,6 +109,22 @@ export default {
     contactme_mail: "Envia correu",
     contactme_number: "Truca'm",
 
+    contact: "Contacte",
+    contact_subtitle: "Tens algun dubte o proposta? Escriu-me!",
+    contact_mail: "Correu electrònic",
+    contact_name: "Nom complet",
+    contact_subject: "Assumpte",
+    contact_enterprise: "Empresa",
+    contact_message: "Missatge",
+    contact_send: "Enviar correu",
+
+    contact_mail_placeholder: "Introdueix el teu correu electrònic",
+    contact_name_placeholder: "Introdueix el teu nom complet",
+    contact_email_placeholder: "Introdueix el teu correu electrònic",
+    contact_subject_placeholder: "Sobre què vols parlar?",
+    contact_enterprise_placeholder: "Nom de la teva empresa (opcional)",
+    contact_message_placeholder: "Escriu el teu missatge aquí...",
+
     footer_copy: "©",
     footer_rights: "Tots els drets reservats."
 

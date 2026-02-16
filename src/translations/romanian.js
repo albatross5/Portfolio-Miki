@@ -123,6 +123,22 @@ export default {
     contactme_mail: "Trimite Email",
     contactme_number: "Sună-mă",
 
+    contact: "Contact",
+    contact_subtitle: "Ai întrebări sau propuneri? Scrie-mi!",
+    contact_mail: "Email",
+    contact_name: "Nume complet",
+    contact_subject: "Subiect",
+    contact_enterprise: "Companie",
+    contact_message: "Mesaj",
+    contact_send: "Trimite Email",
+
+    contact_mail_placeholder: "Introduceti adresa dumneavoastra de email",
+    contact_name_placeholder: "Introduceti numele dumneavoastra complet",
+    contact_email_placeholder: "Introduceti adresa dumneavoastra de email",
+    contact_subject_placeholder: "Despre ce vrei sa vorbesti?",
+    contact_enterprise_placeholder: "Numele companiei dumneavoastra (opțional)",
+    contact_message_placeholder: "Scrie mesajul tau aici...",
+
     //Footer
 
     //Footer

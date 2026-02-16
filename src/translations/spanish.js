@@ -132,10 +132,25 @@ export default {
     //Contacta conmigo
 
     //Contacta conmigo
-    contactme_title: "¡¡Contacta conmigo!!",
-    contactme_subtitle: "Estoy disponible para nuevos proyectos y oportunidades profesionales",
-    contactme_mail: "Enviar Emal",
-    contactme_number: "Llamame",
+    // contactme_title: "¡¡Contacta conmigo!!",
+    // contactme_subtitle: "Estoy disponible para nuevos proyectos y oportunidades profesionales",
+    // contactme_mail: "Enviar Emal",
+    // contactme_number: "Llamame",
+    contact: "Contacto",
+    contact_subtitle: "¿Tienes alguna duda o propuesta? ¡Escríbeme!",
+    contact_mail: "Email",
+    contact_name: "Nombre Completo",
+    contact_subject: "Asunto",
+    contact_enterprise: "Empresa",
+    contact_message: "Mensaje",
+    contact_send: "Enviar Email",
+
+    contact_mail_placeholder: "Introduce tu correo electrónico",
+    contact_name_placeholder: "Introduce tu nombre completo",
+    contact_email_placeholder: "Introduce tu correo electrónico",
+    contact_subject_placeholder: "¿Sobre qué quieres hablar?",
+    contact_enterprise_placeholder: "Nombre de tu empresa (opcional)",
+    contact_message_placeholder: "Escribe tu mensaje aquí...",
 
     //Footer
 
