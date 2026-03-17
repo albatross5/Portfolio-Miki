@@ -8,6 +8,7 @@ import EduLeng from "../../components/EduLeng/EduLeng";
 import InfoCert from "../../components/InfoCert/InfoCert";
 import Footer from "../../components/Footer/Footer";
 import Form from "../../components/Form/Form";
+import LogoSlider from '../../components/LogoSlider/LogoSlider';
 // import LanguageSelector from "../../components/LanguageSelector/LanguageSelector"; //ESTO ES EL SELECTOR DE IDIOMA
 
 const Home = () => {
@@ -285,6 +286,10 @@ const Home = () => {
                     <section class="section">
                         <ExperienciaProfesional experiencias={experiencias} />
                     </section>
+
+                    {/* NUEVO COMPONENTE AQUÍ */}
+                    <LogoSlider />
+
 
                     {/* -----------------SECCION DE CERTIFICACIONES (array en array)----------------- */}
                     <section class="section">
