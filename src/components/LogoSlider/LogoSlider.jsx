@@ -5,7 +5,7 @@ const LogoSlider = () => {
     const logos = [
         { src: "/assets/logo_cj.ico", alt: "Super Power Up" },
         { src: "/assets/scc.svg", alt: "SCC" },
-        { src: "/assets/highlands.jpg", alt: "Highlands School Barcelona" },
+        { src: "/assets/highlands1.png", alt: "Highlands School Barcelona" },
 
     ];
 
@@ -13,7 +13,7 @@ const LogoSlider = () => {
         <div className="card logo-slider-card">
             <div className="slider-track">
                 {/* Duplicamos los logos para el scroll infinito */}
-                {[...logos, ...logos].map((logo, index) => (
+                {[...logos, ...logos, ...logos, ...logos].map((logo, index) => (
                     <div className="slide" key={index}>
                         <img src={logo.src} alt={logo.alt} />
                     </div>

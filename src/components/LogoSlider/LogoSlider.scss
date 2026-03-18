@@ -1,34 +1,40 @@
 .logo-slider-card {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    overflow: hidden; // Importante para que los logos no se salgan
+    margin-top: 1rem; // Margen superior reducido
+    margin-bottom: 3rem; // Margen inferior reducido
+    padding: 1rem 0; // Padding vertical mucho más pequeño
+    overflow: hidden;
 
     .slider-track {
         display: flex;
-        width: calc(180px * 12); // Ajusta según el número de logos (180px * total)
-        animation: scroll-infinite 25s linear infinite;
-        
+        /* IMPORTANTE: (Nuevo ancho del slide 120px) * (Total de logos 12) = 1440px */
+        width: 1440px; 
+        animation: scroll-infinite 15s linear infinite;
     }
 
     .slide {
-        width: 180px;
+        width: 120px; // Ancho reducido por logo
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0 30px;
-        
+        padding: 0 15px; // Padding reducido entre logos
+        flex-shrink: 0;
 
         img {
             max-width: 100%;
+            /* Controla la altura máxima para que no se estire el contenedor */
+            max-height: 80px; // Logos más bajitos
             height: auto;
             transition: all 0.3s ease;
-            
-            
         }
     }
 }
 
 @keyframes scroll-infinite {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-180px * 3)); } // Debe ser la mitad del total de logos
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* RECORRIDO EXACTO: Nuevo ancho de slide (120px) * Tus 3 logos originales = 360px */
+        transform: translateX(-360px); 
+    }
 }
