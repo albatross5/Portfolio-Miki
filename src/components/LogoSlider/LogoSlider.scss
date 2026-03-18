@@ -34,7 +34,7 @@
         transform: translateX(0);
     }
     100% {
-        /* RECORRIDO EXACTO: Nuevo ancho de slide (120px) * Tus 3 logos originales = 360px */
+        /* Nuevo ancho de slide (120px) * Tus 3 logos originales = 360px */
         transform: translateX(-360px); 
     }
 }
