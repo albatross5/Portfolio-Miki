@@ -97,6 +97,11 @@ const Home = () => {
             description: t("certificate_ia_description"),
             year: t("certificate_ia_year"),
         },
+        {   // CERTIFICADO BIG SCHOOL - Ciberseguridad
+            title: t("certificate_ciber"),
+            description: t("certificate_ciber_description"),
+            year: t("certificate_ciber_year"),
+        },
         {   // CERTIFICADO PCAP: PROGRAMMING ESSENTIALS IN PYTHON
             title: t("certificate_cisco"),
             description: t("certificate_cisco_description"),
@@ -125,6 +130,11 @@ const Home = () => {
             image: "/assets/ai.svg",
             text: t("certificate_ia_info"),
             pdf: "https://drive.google.com/file/d/1CenofL0VetnHL2ac-VWZ2CgMm0g0kCUk/view?usp=drive_link",
+        },
+        {   // INFORMACION CERTIFICADO BIG SCHOOL - Ciberseguridad
+            image: "/assets/lock.svg",
+            text: t("certificate_ciber_info"),
+            pdf: "https://drive.google.com/file/d/1A--wXTOz50feJ-h8vDAksqAYXHh4GwBH/view?usp=drive_link",
         },
         {   // INFORMACION CERTIFICADO INTRODUCCION A GITHUB
             image: "/assets/windows.svg",

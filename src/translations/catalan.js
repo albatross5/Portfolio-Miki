@@ -50,25 +50,41 @@ export default {
     experience_enterprise_4: "Highlands School Barcelona",
     experience_description_4: "Instal·lar i configurar programari bàsic i d'aplicació, xarxes locals cablejades, sense fils i connectades a xarxes públiques. Instal·lar, configurar i mantenir serveis multiusuari, aplicacions i dispositius compartits en un entorn de xarxa local. Muntar i configurar ordinadors i perifèrics. Resoldre incidències de tot tipus a nivell d'IT.",
 
-    //Certificacions
+    //Certificaciones
 
+    //Certificados
     certificate_title: "Certificacions",
     button_text: "Més informació",
 
     //Microsoft Learn
     certificate_microsoft: "Microsoft Learn",
-    certificate_microsoft_description: "Més informació a la següent secció.",
+    certificate_microsoft_description: "Més informació a la secció següent.",
     certificate_microsoft_year: "2025",
 
+    //IA
+    certificate_ia: "BIG School - Desenvolupament amb IA",
+    certificate_ia_description: "Certificat de desenvolupament amb intel·ligència artificial. Més informació a la secció següent.",
+    certificate_ia_year: "2025",
+
+    //Ciberseguridad
+    certificate_ciber: "BIG School - Ciberseguretat",
+    certificate_ciber_description: "Certificat sobre tècniques de detecció de vulnerabilitats i defensa digital. Més informació a la secció següent.",
+    certificate_ciber_year: "2026",
+
     //SAGE 200
-    certificate_sage: "SAGE 200 Administrador Informàtic 70h",
-    certificate_sage_description: "Entendre la BBDD de SAGE 200, administració de l'ERP, consultes avançades a la BBDD.",
+    certificate_sage: "SAGE 200 - 70h",
+    certificate_sage_description: "Entendre l'ERP i sol·licitar adaptacions.",
     certificate_sage_year: "2025",
+
+    //SAGE 200 1
+    certificate_sage_1: "SAGE University - 200ES – Sage 200 – Taller d’Experts en Gestió",
+    certificate_sage_1_description: "Administració de l’ERP, configuracions avançades, personalització de plantilles, informes i anàlisi.",
+    certificate_sage_1_year: "2025",
 
     //Cisco
     certificate_cisco: "PCAP: Programming Essentials in Python",
-    certificate_cisco_description: "Certificat oficial Cisco Networking Academy. Més informació a la següent secció.",
-    certificate_cisco_year: "2023",
+    certificate_cisco_description: "Certificat oficial de Cisco Networking Academy. Més informació a la secció següent.",
+    certificate_cisco_year: "2024",
 
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informació de les Certificacions",

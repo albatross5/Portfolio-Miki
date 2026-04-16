@@ -49,24 +49,41 @@ export default {
     experience_enterprise_4: "Highlands School Barcelona",
     experience_description_4: "Installing and configuring basic and application software, wired and wireless local networks, and connections to public networks. Installing, configuring, and maintaining multi-user services, applications, and shared devices in a local network environment. Assembling and configuring computers and peripherals. Resolving all types of IT-related incidents.",
 
-    //Certifications
+   //Certificaciones
+
+    //Certificados
     certificate_title: "Certifications",
-    button_text: "More Information",
+    button_text: "More information",
 
     //Microsoft Learn
     certificate_microsoft: "Microsoft Learn",
     certificate_microsoft_description: "More information in the following section.",
     certificate_microsoft_year: "2025",
 
+    //IA
+    certificate_ia: "BIG School - AI Development",
+    certificate_ia_description: "AI development certificate. More information in the following section.",
+    certificate_ia_year: "2025",
+
+    //Ciberseguridad
+    certificate_ciber: "BIG School - Cybersecurity",
+    certificate_ciber_description: "Certificate on vulnerability detection techniques and digital defense. More information in the following section.",
+    certificate_ciber_year: "2026",
+
     //SAGE 200
-    certificate_sage: "SAGE 200 IT Administrator 70h",
-    certificate_sage_description: "Understanding the SAGE 200 database, ERP administration, advanced database queries.",
+    certificate_sage: "SAGE 200 - 70h",
+    certificate_sage_description: "Understanding the ERP and requesting custom adaptations.",
     certificate_sage_year: "2025",
+
+    //SAGE 200 1
+    certificate_sage_1: "SAGE University - 200ES – Sage 200 – Expert Management Workshop",
+    certificate_sage_1_description: "ERP administration, advanced configurations, template customization, reports and analysis.",
+    certificate_sage_1_year: "2025",
 
     //Cisco
     certificate_cisco: "PCAP: Programming Essentials in Python",
     certificate_cisco_description: "Official Cisco Networking Academy certificate. More information in the following section.",
-    certificate_cisco_year: "2023",
+    certificate_cisco_year: "2024",
 
     //Certifications INFO
     certificate_cisco_info: "Programming Essentials in Python",

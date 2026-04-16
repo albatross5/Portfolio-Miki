@@ -64,8 +64,13 @@ export default {
 
     //IA
     certificate_ia: "BIG School - Desarrollo con IA",
-    certificate_ia_description: "Certificado oficial Microsoft. Mas información en la siguiente sección.",
+    certificate_ia_description: "Certificado desarrollo con IA. Mas información en la siguiente sección.",
     certificate_ia_year: "2025",
+
+    //Ciberseguridad
+    certificate_ciber: "BIG School - Ciberseguridad",
+    certificate_ciber_description: "Certificado Certificado sobre tecnicas de detección de vulnerabilidades y defensa digital. Mas información en la siguiente sección.",
+    certificate_ciber_year: "2026",
 
     //SAGE 200
     certificate_sage: "SAGE 200 - 70h",
@@ -87,6 +92,7 @@ export default {
     certificate_cisco_info: "Programming Essentials in Python",
     certification_title: "Informacion de Certificaciones",
     certificate_ia_info: "Desarrollo con IA",
+    certificate_ciber_info: "Ciberseguridad",
     certificate_github_info_1: "Introduccion a GitHub",
     certificate_github_info_2: "Administracion GitHub",
     certification_sql_1: "Introducción al análisis de datos",

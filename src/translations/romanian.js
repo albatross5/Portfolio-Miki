@@ -53,26 +53,41 @@ export default {
     experience_enterprise_4: "Highlands School Barcelona",
     experience_description_4: "Instalarea și configurarea software-ului de bază și de aplicație, rețele locale cablate, wireless și conectate la rețele publice. Instalarea, configurarea și menținerea serviciilor multi-utilizator, aplicațiilor și dispozitivelor partajate într-un mediu de rețea locală. Montarea și configurarea calculatoarelor și perifericelor. Rezolvarea incidentelor de toate tipurile la nivel IT.",
 
-    //Certificări
+    //Certificaciones
 
-    //Certificate
+    //Certificados
     certificate_title: "Certificări",
     button_text: "Mai multe informații",
 
     //Microsoft Learn
     certificate_microsoft: "Microsoft Learn",
-    certificate_microsoft_description: "Mai multe informații în următoarea secțiune.",
+    certificate_microsoft_description: "Mai multe informații în secțiunea următoare.",
     certificate_microsoft_year: "2025",
 
+    //IA
+    certificate_ia: "BIG School - Dezvoltare cu IA",
+    certificate_ia_description: "Certificat de dezvoltare cu inteligență artificială. Mai multe informații în secțiunea următoare.",
+    certificate_ia_year: "2025",
+
+    //Ciberseguridad
+    certificate_ciber: "BIG School - Securitate cibernetică",
+    certificate_ciber_description: "Certificat privind tehnicile de detectare a vulnerabilităților și apărarea digitală. Mai multe informații în secțiunea următoare.",
+    certificate_ciber_year: "2026",
+
     //SAGE 200
-    certificate_sage: "SAGE 200 Administrator IT 70h",
-    certificate_sage_description: "Înțelegerea bazei de date SAGE 200, administrarea ERP-ului, interogări avansate în baza de date.",
+    certificate_sage: "SAGE 200 - 70h",
+    certificate_sage_description: "Înțelegerea ERP-ului și solicitarea de adaptări personalizate.",
     certificate_sage_year: "2025",
 
+    //SAGE 200 1
+    certificate_sage_1: "SAGE University - 200ES – Sage 200 – Atelier de experți în management",
+    certificate_sage_1_description: "Administrarea ERP-ului, configurări avansate, personalizarea șabloanelor, rapoarte și analiză.",
+    certificate_sage_1_year: "2025",
+
     //Cisco
-    certificate_cisco: "PCAP: Programming Essentials în Python",
-    certificate_cisco_description: "Certificare oficială Cisco Networking Academy. Mai multe informații în următoarea secțiune.",
-    certificate_cisco_year: "2023",
+    certificate_cisco: "PCAP: Programming Essentials in Python",
+    certificate_cisco_description: "Certificat oficial Cisco Networking Academy. Mai multe informații în secțiunea următoare.",
+    certificate_cisco_year: "2024",
 
     //Certificări INFO
     certificate_cisco_info: "Programming Essentials în Python",
