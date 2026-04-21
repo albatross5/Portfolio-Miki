@@ -16,7 +16,9 @@ const Header = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <img className="iconos" src="/assets/pin.svg" alt="PIN" />
-                <span>{t("header_location")}</span>
+                <a href="https://maps.app.goo.gl/k4hsiQZDx2u1f1QQ7" target="_blank" rel="noopener noreferrer">
+                  <span>{t("header_location")}</span>
+                </a>
               </div>
               <div className="contact-item">
                 <img className="iconos" src="/assets/mail.svg" alt="MAIL" />

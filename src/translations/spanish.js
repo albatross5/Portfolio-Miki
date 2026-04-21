@@ -14,10 +14,11 @@ export default {
 
     //Sobre Mi
     sobre_mi: "Sobre Mi",
-    sobre_mi_primero: "Soy Miguel Ramírez, técnico informático en formación con mas de 2 años de experiencia, con especialización en bases de datos, ciberseguridad y desarrollo web, colaboro en proyectos de gestión de datos y aplicaciones internas, a parte de las tareas de administracion de sistemas.",
-    sobre_mi_segundo: "Me considero una persona trabajadora, ordenada, paciente y amable, con gran capacidad de adaptación a distintos estilos de trabajo. Destaco por ser resolutivo, activo y proactivo, y por saber trabajar tanto en equipo como de forma autónoma, siempre orientado a las personas y a la excelencia.",
-    sobre_mi_tercero: "Además, tengo una gran pasión por la música: toco el piano con gran destreza y he compuesto piezas que han sido interpretadas en conferencias, exposiciones, cenas y espectáculos. Esta faceta artística me ha enseñado a desarrollar la creatividad, la concentración y la sensibilidad, cualidades que aplico también en el entorno profesional.",
-    sobre_mi_cuarto: "En mi tiempo libre me mantengo informado sobre las últimas novedades en SQL y ciberseguridad, áreas que me apasionan y en las que busco seguir creciendo profesionalmente.",
+    sobre_mi_primero: "Soy Miguel Ramírez, informático especializado en ciberseguridad, con una gran pasión por las bases de datos y el desarrollo web. A lo largo de mi experiencia he colaborado en proyectos de análisis de red, creación de informes basados en datos mediante ERP y, especialmente, en tareas de Administración de Sistemas.",
+    sobre_mi_segundo: "Mi principal área de especialización es la Administración de Sistemas, trabajando especialmente con Microsoft y el ecosistema Microsoft 365, gestionando usuarios, SharePoint, dispositivos, permisos, seguridad y servicios en entornos corporativos. Además, tengo experiencia con Sage 200 a nivel administrador y edición de informes con SQL, y WordPress para el desarrollo y mantenimiento de sitios web.",
+    sobre_mi_tercero: "Me considero una persona trabajadora, ordenada, paciente y amable, con gran capacidad de adaptación a distintos estilos de trabajo. Destaco por ser resolutivo, activo y proactivo, y por saber trabajar tanto en equipo como de forma autónoma, siempre orientado a las personas y a la excelencia.",
+    sobre_mi_cuarto: "Además, tengo una gran pasión por la música: toco el piano y he interpretado piezas en conferencias, exposiciones, cenas y espectáculos. Esta faceta artística me ha permitido desarrollar la creatividad, la concentración y la sensibilidad, cualidades que aplico también en el ámbito profesional.",
+    
     //Badge
     badgecard_title_lenguages: "Lenguajes",
     badgecard_title_herramientas: "Herramientas",

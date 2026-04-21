@@ -14,16 +14,16 @@ export default {
 
     //Sobre Mi
     sobre_mi: "Despre mine",
-    sobre_mi_primero: "Sunt Miguel Ramírez, tehnician IT în formare cu peste 2 ani de experiență, specializat în baze de date, securitate cibernetică și dezvoltare web. Colaborez la proiecte de gestionare a datelor și aplicații interne, pe lângă sarcinile de administrare a sistemelor.",
-    sobre_mi_segundo: "Mă consider o persoană muncitoare, organizată, răbdătoare și amabilă, cu o mare capacitate de adaptare la diferite stiluri de lucru. Sunt proactiv, orientat spre soluții și capabil să lucrez atât independent, cât și în echipă, mereu concentrat pe oameni și excelență.",
-    sobre_mi_tercero: "De asemenea, am o mare pasiune pentru muzică: cânt la pian cu măiestrie și am compus piese care au fost interpretate la conferințe, expoziții, cine și spectacole. Această latură artistică m-a învățat creativitatea, concentrarea și sensibilitatea — calități pe care le aplic și în mediul profesional.",
-    sobre_mi_cuarto: "În timpul liber, mă informez constant despre cele mai recente noutăți în SQL și securitate cibernetică, domenii care mă pasionează și în care doresc să evoluez profesional.",
+    sobre_mi_primero: "Sunt Miguel Ramírez, specialist IT în securitate cibernetică, cu o mare pasiune pentru bazele de date și dezvoltarea web. De-a lungul experienței mele am colaborat la proiecte de analiză de rețea, crearea de rapoarte bazate pe date prin intermediul ERP-urilor și, în special, în sarcini de Administrare a Sistemelor.",
+    sobre_mi_segundo: "Principala mea arie de specializare este Administrarea Sistemelor, lucrând în special cu Microsoft și ecosistemul Microsoft 365, gestionând utilizatori, SharePoint, dispozitive, permisiuni, securitate și servicii în medii corporative. De asemenea, am experiență cu Sage 200 la nivel de administrator și în editarea rapoartelor cu SQL, precum și cu WordPress pentru dezvoltarea și mentenanța site-urilor web.",
+    sobre_mi_tercero: "Mă consider o persoană muncitoare, ordonată, răbdătoare și amabilă, cu o mare capacitate de adaptare la diverse stiluri de lucru. Mă remarc prin faptul că sunt orientat spre soluții, activ și proactiv și prin capacitatea de a lucra atât în echipă, cât și autonom, mereu orientat către oameni și excelență.",
+    sobre_mi_cuarto: "În plus, am o mare pasiune pentru muzică: cânt la pian și am interpretat piese la conferințe, expoziții, cine și spectacole. Această latură artistică mi-a permis să dezvolt creativitatea, concentrarea și sensibilitatea, calități pe care le aplic și în domeniul profesional.",
     
     //Badge
-    badgecard_title_lenguages: "Programare",
-    badgecard_title_herramientas: "Unelte",
+    badgecard_title_lenguages: "Limbi",
+    badgecard_title_herramientas: "Instrumente",
 
-
+    
     // Experiență Profesională
 
     // Experiență Profesională ordonată de Actualidad - Ultimo

@@ -82,6 +82,11 @@ const Home = () => {
     ];
 
     const certificados = [ // APARTADO DE CERTIFICACIONES, AQUI SE LE PASA EL ARRAY DE CERTIFICADOS PARA QUE SE MUESTREN EN PANTALLA
+        {   // CERTIFICADO BIG SCHOOL - Ciberseguridad
+            title: t("certificate_ciber"),
+            description: t("certificate_ciber_description"),
+            year: t("certificate_ciber_year"),
+        },
         {   // CERTIFICADO MICROSOFT LEARN
             title: t("certificate_microsoft"),
             description: t("certificate_microsoft_description"),
@@ -97,22 +102,16 @@ const Home = () => {
             description: t("certificate_ia_description"),
             year: t("certificate_ia_year"),
         },
-        {   // CERTIFICADO BIG SCHOOL - Ciberseguridad
-            title: t("certificate_ciber"),
-            description: t("certificate_ciber_description"),
-            year: t("certificate_ciber_year"),
+        {   // CERTIFICADO SAGE 200 - 70H
+            title: t("certificate_sage"),
+            description: t("certificate_sage_description"),
+            year: t("certificate_sage_year"),
         },
         {   // CERTIFICADO PCAP: PROGRAMMING ESSENTIALS IN PYTHON
             title: t("certificate_cisco"),
             description: t("certificate_cisco_description"),
             year: t("certificate_cisco_year"),
         },
-        {   // CERTIFICADO SAGE 200 - 70H
-            title: t("certificate_sage"),
-            description: t("certificate_sage_description"),
-            year: t("certificate_sage_year"),
-        },
-        
     ];
 
     const infocert = [ // APARTADO DE INFORMACION DE CERTIFICADOS, AQUI SE LE PASA EL ARRAY DE INFORMACION DE CERTIFICADOS PARA QUE SE MUESTREN EN PANTALLA

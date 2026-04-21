@@ -12,16 +12,17 @@ export default {
     header_carta: "Letter",
     header_download_cv: "CV",
 
-    //About Me
+    //Sobre Mi
     sobre_mi: "About Me",
-    sobre_mi_primero: "I am Miguel Ramírez, an IT technician in training with over 2 years of experience, specialized in databases, cybersecurity, and web development. I collaborate on data management projects and internal applications, in addition to system administration tasks.",
-    sobre_mi_segundo: "I consider myself a hardworking, organized, patient, and kind person, with great adaptability to different work styles. I am proactive, solution-oriented, and capable of working both independently and in teams, always focused on people and excellence.",
-    sobre_mi_tercero: "I also have a great passion for music: I play the piano with skill and have composed pieces that have been performed at conferences, exhibitions, dinners, and shows. This artistic side has taught me creativity, concentration, and sensitivity—qualities I also apply in the professional environment.",
-    sobre_mi_cuarto: "In my free time, I stay informed about the latest developments in SQL and cybersecurity, areas I am passionate about and in which I seek to continue growing professionally.",
+    sobre_mi_primero: "I am Miguel Ramírez, an IT professional specialized in cybersecurity, with a strong passion for databases and web development. Throughout my experience, I have collaborated on network analysis projects, the creation of data-based reports using ERP systems, and especially in System Administration tasks.",
+    sobre_mi_segundo: "My main area of expertise is System Administration, working primarily with Microsoft and the Microsoft 365 ecosystem, managing users, SharePoint, devices, permissions, security, and services in corporate environments. Additionally, I have experience with Sage 200 at an administrative level, SQL-based report editing, and WordPress for website development and maintenance.",
+    sobre_mi_tercero: "I consider myself a hardworking, organized, patient, and kind person, with a strong ability to adapt to different working styles. I stand out for being solution-oriented, active, and proactive, and for my ability to work both in teams and independently, always focused on people and excellence.",
+    sobre_mi_cuarto: "Additionally, I have a strong passion for music: I play the piano and have performed pieces at conferences, exhibitions, dinners, and shows. This artistic side has allowed me to develop creativity, concentration, and sensitivity, qualities that I also apply in my professional field.",
     
     //Badge
-    badgecard_title_lenguages: "Programming Languages",
+    badgecard_title_lenguages: "Languages",
     badgecard_title_herramientas: "Tools",
+
 
     //Professional Experience
     experience: "Professional Experience",

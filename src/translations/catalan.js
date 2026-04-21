@@ -14,13 +14,13 @@ export default {
 
     //Sobre Mi
     sobre_mi: "Sobre mi",
-    sobre_mi_primero: "Soc en Miguel Ramírez, tècnic informàtic en formació amb més de 2 anys d’experiència, especialitzat en bases de dades, ciberseguretat i desenvolupament web. Col·laboro en projectes de gestió de dades i aplicacions internes, a més de dur a terme tasques d’administració de sistemes.",
-    sobre_mi_segundo: "Em considero una persona treballadora, ordenada, pacient i amable, amb gran capacitat d’adaptació a diferents estils de treball. Destaco per ser resolutiu, actiu i proactiu, i per saber treballar tant en equip com de manera autònoma, sempre orientat a les persones i a l’excel·lència.",
-    sobre_mi_tercero: "A més, tinc una gran passió per la música: toco el piano amb destresa i he compost peces que s’han interpretat en conferències, exposicions, sopars i espectacles. Aquesta faceta artística m’ha ensenyat a desenvolupar la creativitat, la concentració i la sensibilitat, qualitats que també aplico en l’entorn professional.",
-    sobre_mi_cuarto: "En el meu temps lliure, m’informo sobre les últimes novetats en SQL i ciberseguretat, àrees que m’apassionen i en les quals busco seguir creixent professionalment.",
-
+    sobre_mi_primero: "Sóc en Miguel Ramírez, informàtic especialitzat en ciberseguretat, amb una gran passió per les bases de dades i el desenvolupament web. Al llarg de la meva experiència he col·laborat en projectes d’anàlisi de xarxa, creació d’informes basats en dades mitjançant ERP i, especialment, en tasques d’Administració de Sistemes.",
+    sobre_mi_segundo: "La meva principal àrea d’especialització és l’Administració de Sistemes, treballant especialment amb Microsoft i l’ecosistema Microsoft 365, gestionant usuaris, SharePoint, dispositius, permisos, seguretat i serveis en entorns corporatius. A més, tinc experiència amb Sage 200 a nivell d’administrador i en l’edició d’informes amb SQL, així com amb WordPress per al desenvolupament i manteniment de llocs web.",
+    sobre_mi_tercero: "Em considero una persona treballadora, ordenada, pacient i amable, amb una gran capacitat d’adaptació a diferents estils de treball. Em caracteritzo per ser resolutiu, actiu i proactiu, i per saber treballar tant en equip com de manera autònoma, sempre orientat a les persones i a l’excel·lència.",
+    sobre_mi_cuarto: "A més, tinc una gran passió per la música: toco el piano i he interpretat peces en conferències, exposicions, sopars i espectacles. Aquesta vessant artística m’ha permès desenvolupar la creativitat, la concentració i la sensibilitat, qualitats que també aplico en l’àmbit professional.",
+    
     //Badge
-    badgecard_title_lenguages: "Programació",
+    badgecard_title_lenguages: "Llenguatges",
     badgecard_title_herramientas: "Eines",
 
 
