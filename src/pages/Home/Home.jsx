@@ -8,6 +8,8 @@ import EduLeng from "../../components/EduLeng/EduLeng";
 import InfoCert from "../../components/InfoCert/InfoCert";
 import Footer from "../../components/Footer/Footer";
 import Form from "../../components/Form/Form";
+// import BadgeCard1 from "../../components/BadgeCard1/BadgeCard1"; // Esto es otro BadgeCard que va en el mismo sitio que el BadgeCard normal, solo que es otra idea sacada de Moviestar.
+
 // import LogoSlider from '../../components/LogoSlider/LogoSlider';
 // import LanguageSelector from "../../components/LanguageSelector/LanguageSelector"; //ESTO ES EL SELECTOR DE IDIOMA
 
@@ -274,6 +276,11 @@ const Home = () => {
                             </p>
                         </div>
                     </section>
+
+                    {/* Esto es un array opcional, en el caso de que las SKILLS no me gusta. Es una idea sacada de Moviestar. */}
+                    {/* <section class="section">
+                        <BadgeCard1 categories={BadgeCards} />
+                    </section> */}
 
                     {/* -----------------SECCION DE SKILLS (array en array)----------------- */}
                     <section class="section">
