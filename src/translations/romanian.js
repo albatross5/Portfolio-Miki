@@ -9,7 +9,8 @@ export default {
     header_phone: "+34 654 84 09 46",
     header_linkedin: "LinkedIn",
     header_github: "GitHub",
-    header_carta: "Scrisoare",
+    header_carta_1: "Scrisoare 1",
+    header_carta_2: "Scrisoare 2",
     header_download_cv: "CV",
 
     //Sobre Mi
@@ -115,6 +116,10 @@ export default {
     //CFGM
     education_cfgm: "GFGM Sisteme microinformatică și rețele",
     education_cfgm_center: "Institutul Esteve Terradas - Cornellà de Llobregat",
+
+    //Masterat
+    education_master: "Masterat în Securitate Cibernetică în Medii IT",
+    education_master_center: "Institutul Esteve Terradas - Cornellà de Llobregat",
 
     //Limbi
     language_title: "Limbi",

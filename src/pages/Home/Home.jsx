@@ -214,6 +214,7 @@ const Home = () => {
         {   // EDUCACION
             icon: "/assets/certificate.svg",
             title: t("education_title"),
+            type: "rows", // <--- Filas completas
             EduLeng: [
                 {
                     course: t("education_cfgs"),
@@ -223,31 +224,39 @@ const Home = () => {
                     course: t("education_cfgm"),
                     center: t("education_cfgm_center"),
                 },
-                
+                {
+                    course: t("education_master"),
+                    center: t("education_master_center"),
+                },
             ],
         },
         {   // IDIOMAS
             icon: "/assets/language.svg",
             title: t("language_title"),
+            type: "grid",
             EduLeng: [
                 {
                     course: t("language_es"),
                     center: t("language_native"),
+                    flag: "/assets/españa.avif", // Imagen de la bandera
                 },
                 {
                     course: t("language_cat"),
                     center: t("language_native"),
+                    flag: "/assets/cataluña.jpg",
                 },
                 {
                     course: t("language_rom"),
                     center: t("language_mid"),
+                    flag: "/assets/romania.avif",
                 },
                 {
                     course: t("language_eng"),
                     center: t("language_basic"),
+                    flag: "/assets/estadosun.jpg",
                 },
             ],
-        },
+        }
     ];
 
     return (
@@ -320,14 +329,15 @@ const Home = () => {
                     </section>
 
                     {/* -----------------SECCION DE EDUCACION Y IDIOMA (array en array)----------------- */}
-                    <section class="section">
-                        <div class="skills-grid">
+                    <section className="section">
+                        <div className="skills-grid">
                             <div className="skills-container">
                                 {eduleng.map((item, index) => (
                                     <EduLeng
                                         key={index}
                                         icon={item.icon}
                                         title={item.title}
+                                        type={item.type} // <--- Pasamos la prop aquí
                                         EduLeng={item.EduLeng}
                                     />
                                 ))}
